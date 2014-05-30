@@ -1,3 +1,2 @@
 untitled.tex
-figures/l2fc/l2fc.png
 figures/ordination_all_day_facet/ordination_all_day_facet.png
