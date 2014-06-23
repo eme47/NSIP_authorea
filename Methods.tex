@@ -21,7 +21,7 @@ Sequences were distributed into OTUs using the UParse methods \cite{23955772}. S
 All alignments for phylogenetic analyses were created using SSU-Align which is based on Infernal \cite{24008419, 19307242}. Columns in the alignment that were not included in the SSU-Align covariance models or were aligned with poor confidence (less than 95\% of characters in a position had posterior probability alignment scores of at least 95\%) were masked for phylogenetic reconstruction. Additionally, all aligments were trimmed to coordinates such that all sequences in the alignment began and ended at the same positions. The tree used in Weighted Unifrac calculations included all cluster centroids and \textit{Sulfolobuls solfataricus} (accession X90478) for an outgroup. The "\textit{Clostridiaceae}" tree included all top BLAST hits (parameters below) for $^{15}$N responders in the Living Tree Project database \cite{Yarza_2008} in addition to BLAST hits within an sequence identity threshold of 97\% to $^{15}$N responders from the Silva SSURef\_NR SSU rRNA database \cite{17947321}. Only one SSURef\_NR115 hit per study (determined by "title" field) was selected for the tree. FastTree \cite{20224823} was used to build all trees and tree support values are SH-like scores reported by FastTree.
 
 \subsubsection{BLAST Searches}
-pass
+BLAST searches were done with the "blastn" program from BLAST+ toolkit \cite{20003500} version 2.2.29+. Default parameters were always emplyed and the BioPython \cite{19304878} blast+ wrapper was used to invoke the blastn program. Pandas \cite{citeulike:11241428} and dplyr \cite{dplyr} were used to parse and munge BLAST output tables.  
 
 \subsubsection{Density Profiles}
 pass
