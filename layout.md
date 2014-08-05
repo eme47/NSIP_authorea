@@ -4,5 +4,6 @@ Discussion.tex
 Methods.tex
 figures/ordination_all_day_facet/ordination_all_day_facet.png
 figures/l2fc1/l2fc1.png
+figures/scatter_heavy_topN1/scatter_heavy_topN1.png
 figures/scatter_heavy_topN/scatter_heavy_topN.png
 figures/table/table.png
