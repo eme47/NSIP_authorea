@@ -8,7 +8,7 @@ figures/l2fc1/l2fc_w_inset.png
 figures/scatter_heavy_topN2/scatter_heavy_topN.png
 figures/het_cyano_temp/het_cyano_temp.png
 figures/rarefacation_curves1/rarefacation_curves.png
-figures/kde_frac_obs1/kde_frac_obs1.png
+figures/kde_frac_obs1/kde_frac_obs.png
 figures/rspndr_dist/rspndr_dist.png
 figures/LTP_blast_table/LTP_blast_table.png
 figures/clost.tree/clost.tree.png
