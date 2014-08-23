@@ -7,6 +7,7 @@ figures/ordination_all_day_facet/ordination_day_facet_w_inset (1).png
 figures/l2fc1/l2fc_w_inset.png
 figures/scatter_heavy_topN2/scatter_heavy_topN.png
 figures/het_cyano_temp/het_cyano_temp.png
+figures/het_cyano_steven2013/het_cyano_steven2013.png
 figures/rarefacation_curves1/rarefacation_curves.png
 figures/kde_frac_obs1/kde_frac_obs.png
 figures/rspndr_dist/rspndr_dist.png
