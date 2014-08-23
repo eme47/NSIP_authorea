@@ -17,6 +17,25 @@ Barcoded PCR of bacterial and archaeal 16s rRNA genes, in preparation for 454 Py
 \subsubsection{Sequence Clustering}
 Sequences were distributed into OTUs using the UParse methodology \cite{23955772}. Specically, cluster seeds were identified using USearch with a collection of non-redundant reads sorted by count as input. The sequence identity threshold for establishing a new OTU centroid was 97\%. After initial cluster centroid selection, select 16S rRNA sequences trimmed to the same 16S position as the other centroids from \citet{Yeager} were added to the centroid collection. Specifically, \citet{Yeager} Colorado Plateau or Moab, Utah sequences were added which included the 16S sequences for \textit{Calothrix MCC-3A, Nostoc commune MCT-1, Nostoc commune MFG-1, Scytonema hyalinum DC-A, Scytonema hyalinum FGP-7A, Spirirestis rafaelensis LQ-10}. Denovo centroid sequences that matched selected \citet{Yeager} sequences with greater than to 97\% sequence identity were subsequently removed from the centroid collection. With USearch/UParse, potential chimeras are identified during OTU centroid selection and are not allowed to become cluster centroids effectively removing chimeras from the read pool. All quality controlled reads were then mapped to cluster centroids at an identity threshold of 97\% again using USearch. 95.6\% of quality controlled reads could be mapped to centroids. Unmapped reads do not count towards sample counts and are essentially removed from downstream analyses. The USearch software version for cluster generation was 7.0.1090.
 
+\begin{table}
+\begin{center}
+\begin{tabular}{ l l }
+\textbf{Accession of representative 16S rRNA seqeunce} &
+\textbf{Species Name} \\ 
+\hline
+DQ531701.1 & Scytonema hyalinum\nDC-A \\
+DQ531697.1 & Scytonema hyalinum\nFGP-7A \\
+DQ531696.1 & Spirirestis rafaelensis\nLQ-10 \\
+DQ531703.1 & Nostoc commune\nMCT-1 \\
+DQ531699.1 & Nostoc commune\nMFG-1 \\
+DQ531700.1 & Calothrix\nMCC-3A  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Chosen 16S sequences for strains in \citet{Yeager} included as OTU centroids}
+\label{table:yeager_2006}
+\end{table}
+
 \subsubsection{Merging data from this study, \citet{Garcia_Pichel_2013}, and \citet{Steven_2013}}
 As only sequences without corresponding quality scores were publicly available from \citet{Garcia_Pichel_2013} and \citet{Steven_2013}, these data sets were only quality screened by determining if they covered then expected region of the 16S gene (described above). All data (this study, \citet{Garcia_Pichel_2013} and \citet{Steven_2013}) were included as input to USearch for OTU centroid selection and subsequent mapping to OTU centroids. 
 
