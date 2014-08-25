@@ -11,5 +11,6 @@ figures/het_cyano_steven2013/het_cyano_steven2013.png
 figures/rarefacation_curves1/rarefacation_curves.png
 figures/kde_frac_obs1/kde_frac_obs.png
 figures/rspndr_dist/rspndr_dist.png
+figures/het_sparsity/het_sparsity.png
 figures/LTP_blast_table/LTP_blast_table.png
 figures/clost.tree/clost.tree.png
