@@ -10,7 +10,6 @@ figures/scatter_heavy_topN2/scatter_heavy_topN.png
 figures/het_cyano_temp/het_cyano_temp.png
 figures/het_cyano_steven2013/het_cyano_steven2013.png
 figures/rarefacation_curves1/raref_and_boxplot.png
-figures/kde_frac_obs1/kde_frac_obs.png
 figures/rspndr_dist/rspndr_dist.png
 figures/het_sparsity/het_sparsity.png
 figures/LTP_blast_table/LTP_blast_table.png
