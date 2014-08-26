@@ -1,0 +1,166 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Belnap(2001)]{Belnap_2001}
+J.~Belnap.
+\newblock {Factors Influencing Nitrogen Fixation and Nitrogen Release in
+  Biological Soil Crusts}.
+\newblock In \emph{Biological Soil Crusts: Structure Function, and Management},
+  pages 241--261. Springer Science + Business Media, 2001.
+\newblock \doi{10.1007/978-3-642-56475-8_19}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_19}.
+
+\bibitem[Belnap(2003)]{belnap2003}
+J.~Belnap.
+\newblock {Factors Influencing Nitrogen Fixation and Nitrogen Release in
+  Biological Soil Crusts}.
+\newblock In Jayne Belnap and OttoL. Lange, editors, \emph{Biological Soil
+  Crusts: Structure, Function, and Management}, volume 150 of \emph{Ecological
+  Studies}, pages 241--261. Springer Berlin Heidelberg, 2003.
+\newblock ISBN 978-3-540-43757-4.
+\newblock \doi{10.1007/978-3-642-56475-8_19}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_19}.
+
+\bibitem[Belnap et~al.(2003)Belnap, Prasse, and Harper]{BelnapVascular}
+J.~Belnap, R.~Prasse, and K.T. Harper.
+\newblock {Influence of Biological Soil Crusts on Soil Environments and
+  Vascular Plants}.
+\newblock In Jayne Belnap and OttoL. Lange, editors, \emph{Biological Soil
+  Crusts: Structure, Function, and Management}, volume 150 of \emph{Ecological
+  Studies}, pages 281--300. Springer Berlin Heidelberg, 2003.
+\newblock ISBN 978-3-540-43757-4.
+\newblock \doi{10.1007/978-3-642-56475-8_21}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_21}.
+
+\bibitem[Belnap(2002)]{Belnap_2002}
+Jayne Belnap.
+\newblock {Nitrogen fixation in biological soil crusts from southeast Utah
+  USA}.
+\newblock \emph{Biology and Fertility of Soils}, 35\penalty0 (2):\penalty0
+  128--135, Apr 2002.
+\newblock \doi{10.1007/s00374-002-0452-x}.
+\newblock URL \url{http://dx.doi.org/10.1007/s00374-002-0452-x}.
+
+\bibitem[Belnap(2013)]{Belnap28062013}
+Jayne Belnap.
+\newblock {Some Like It Hot, Some Not}.
+\newblock \emph{Science}, 340\penalty0 (6140):\penalty0 1533--1534, 2013.
+\newblock \doi{10.1126/science.1240318}.
+\newblock URL \url{http://www.sciencemag.org/content/340/6140/1533.short}.
+
+\bibitem[Evans and Belnap(1999)]{Evans_1999}
+R.~D. Evans and J.~Belnap.
+\newblock {Long-Term Consequences of Disturbance on Nitrogen Dynamics in an
+  Arid Ecosystem}.
+\newblock \emph{Ecology}, 80\penalty0 (1):\penalty0 150--160, Jan 1999.
+\newblock \doi{10.1890/0012-9658(1999)080[0150:ltcodo]2.0.co;2}.
+\newblock URL
+  \url{http://dx.doi.org/10.1890/0012-9658(1999)080[0150:LTCODO]2.0.CO;2}.
+
+\bibitem[Evans and Lange(2001)]{Evans_2001}
+R.~D. Evans and O.~L. Lange.
+\newblock {Biological Soil Crusts and Ecosystem Nitrogen and Carbon Dynamics}.
+\newblock In \emph{Biological Soil Crusts: Structure Function, and Management},
+  pages 263--279. Springer Science + Business Media, 2001.
+\newblock \doi{10.1007/978-3-642-56475-8_20}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_20}.
+
+\bibitem[Garcia-Pichel et~al.(2003{\natexlab{a}})Garcia-Pichel, Johnson,
+  Youngkin, and Belnap]{Garcia_Pichel_2003}
+F.~Garcia-Pichel, S.~L. Johnson, D.~Youngkin, and J.~Belnap.
+\newblock {Small-Scale Vertical Distribution of Bacterial Biomass and Diversity
+  in Biological Soil Crusts from Arid Lands in the Colorado Plateau}.
+\newblock \emph{Microbial Ecology}, 46\penalty0 (3):\penalty0 312--321, Nov
+  2003{\natexlab{a}}.
+\newblock \doi{10.1007/s00248-003-1004-0}.
+\newblock URL \url{http://dx.doi.org/10.1007/s00248-003-1004-0}.
+
+\bibitem[Garcia-Pichel et~al.(2013)Garcia-Pichel, Loza, Marusenko, Mateo, and
+  Potrafka]{Garcia_Pichel_2013}
+F.~Garcia-Pichel, V.~Loza, Y.~Marusenko, P.~Mateo, and R.~M. Potrafka.
+\newblock {Temperature Drives the Continental-Scale Distribution of Key
+  Microbes in Topsoil Communities}.
+\newblock \emph{Science}, 340\penalty0 (6140):\penalty0 1574--1577, Jun 2013.
+\newblock \doi{10.1126/science.1236404}.
+\newblock URL \url{http://dx.doi.org/10.1126/science.1236404}.
+
+\bibitem[Garcia-Pichel et~al.(2003{\natexlab{b}})Garcia-Pichel, Belnap, Neuer,
+  and Schanz]{garcia2003estimates}
+Ferran Garcia-Pichel, Jayne Belnap, Susanne Neuer, and Ferdinand Schanz.
+\newblock {Estimates of global cyanobacterial biomass and its distribution}.
+\newblock \emph{Algological Studies}, 109\penalty0 (1):\penalty0 213--227,
+  2003{\natexlab{b}}.
+
+\bibitem[Johnson et~al.(2005)Johnson, Budinoff, Belnap, and
+  Garcia-Pichel]{15643930}
+SL~Johnson, CR~Budinoff, J~Belnap, and F~Garcia-Pichel.
+\newblock {Relevance of ammonium oxidation within biological soil crust
+  communities.}
+\newblock 7:\penalty0 1--12, 2005.
+
+\bibitem[Karnieli et~al.(2003)Karnieli, Kokaly, West, and Clark]{karnieli2001}
+A.~Karnieli, R.F. Kokaly, N.E. West, and R.N. Clark.
+\newblock {Remote Sensing of Biological Soil Crusts}.
+\newblock In Jayne Belnap and OttoL. Lange, editors, \emph{Biological Soil
+  Crusts: Structure, Function, and Management}, volume 150 of \emph{Ecological
+  Studies}, pages 431--455. Springer Berlin Heidelberg, 2003.
+\newblock ISBN 978-3-540-43757-4.
+\newblock \doi{10.1007/978-3-642-56475-8_31}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_31}.
+
+\bibitem[Steppe et~al.(1996)Steppe, Olson, Paerl, Litaker, and
+  Belnap]{Steppe_1996}
+T.F. Steppe, J.B. Olson, H.W. Paerl, R.W. Litaker, and J.~Belnap.
+\newblock {Consortial N2 fixation: a strategy for meeting nitrogen requirements
+  of marine and terrestrial cyanobacterial mats}.
+\newblock \emph{FEMS Microbiology Ecology}, 21\penalty0 (3):\penalty0 149--156,
+  Nov 1996.
+\newblock \doi{10.1111/j.1574-6941.1996.tb00342.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1574-6941.1996.tb00342.x}.
+
+\bibitem[Steven et~al.(2013)Steven, Gallegos-Graves, Belnap, and
+  Kuske]{Steven_2013}
+Blaire Steven, La~Verne Gallegos-Graves, Jayne Belnap, and Cheryl~R. Kuske.
+\newblock {Dryland soil microbial communities display spatial biogeographic
+  patterns associated with soil depth and soil parent material}.
+\newblock \emph{FEMS Microbiol Ecol}, 86\penalty0 (1):\penalty0 101--113, May
+  2013.
+\newblock \doi{10.1111/1574-6941.12143}.
+\newblock URL \url{http://dx.doi.org/10.1111/1574-6941.12143}.
+
+\bibitem[Yeager et~al.(2006)Yeager, Kornosky, Morgan, Cain, Garcia-Pichel,
+  Housman, Belnap, and Kuske]{Yeager}
+Chris~M. Yeager, Jennifer~L. Kornosky, Rachael~E. Morgan, Elizabeth~C. Cain,
+  Ferran Garcia-Pichel, David~C. Housman, Jayne Belnap, and Cheryl~R. Kuske.
+\newblock {Three distinct clades of cultured heterocystous cyanobacteria
+  constitute the dominant N2-fixing members of biological soil crusts of the
+  Colorado Plateau USA}.
+\newblock \emph{FEMS Microbiology Ecology}, 60\penalty0 (1):\penalty0 85--97,
+  2006.
+\newblock \doi{10.1111/j.1574-6941.2006.00265.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1574-6941.2006.00265.x}.
+
+\bibitem[Yeager et~al.(2012)Yeager, Kuske, Carney, Johnson, Ticknor, and
+  Belnap]{Yeager_2012}
+Chris~M. Yeager, Cheryl~R. Kuske, Travis~D. Carney, Shannon~L. Johnson,
+  Lawrence~O. Ticknor, and Jayne Belnap.
+\newblock {Response of Biological Soil Crust Diazotrophs to Season Altered
+  Summer Precipitation, and Year-Round Increased Temperature in an Arid
+  Grassland of the Colorado Plateau, USA}.
+\newblock \emph{Front. Microbio.}, 3, 2012.
+\newblock \doi{10.3389/fmicb.2012.00358}.
+\newblock URL \url{http://dx.doi.org/10.3389/fmicb.2012.00358}.
+
+\bibitem[Yeager et~al.(2004)Yeager, Kornosky, Housman, Grote, Belnap, and
+  Kuske]{14766579}
+CM~Yeager, JL~Kornosky, DC~Housman, EE~Grote, J~Belnap, and CR~Kuske.
+\newblock {Diazotrophic community structure and function in two successional
+  stages of biological soil crusts from the Colorado Plateau and Chihuahuan
+  Desert.}
+\newblock 70:\penalty0 973--83, 2004.
+
+\end{thebibliography}
