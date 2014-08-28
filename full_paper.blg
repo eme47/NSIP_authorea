@@ -3,47 +3,66 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: full_paper.aux
 The style file: plainnat.bst
 Database file #1: bibliography/biblio.bib.bib
+Warning--empty journal in 20003500
+Warning--empty journal in 20383131
+Warning--empty journal in 19304878
+Warning--empty journal in 16845035
+Warning--empty journal in 20709691
+Warning--empty journal in 23955772
 Warning--empty journal in 15643930
+Warning--empty institution in Love_2014
+Warning--empty journal in 16332807
+Warning--empty journal in 24699258
+Warning--empty journal in 24008419
+Warning--empty journal in 19307242
+Warning--empty journal in 17446886
+Warning--empty year in 17446886
+Warning--empty year in 17446886
+Warning--empty journal in 20224823
+Warning--empty journal in 17947321
+Warning--empty journal in 19801464
+Warning--empty journal in 21349862
 Warning--empty journal in 14766579
-You've used 17 entries,
+Warning--empty journal in 25139123
+You've used 46 entries,
             2773 wiz_defined-function locations,
-            741 strings with 9462 characters,
-and the built_in function-call counts, 10088 in all, are:
-= -- 930
-> -- 616
-< -- 14
-+ -- 207
-- -- 189
-* -- 910
-:= -- 1557
-add.period$ -- 87
-call.type$ -- 17
-change.case$ -- 112
-chr.to.int$ -- 16
-cite$ -- 36
-duplicate$ -- 418
-empty$ -- 749
-format.name$ -- 210
-if$ -- 2151
+            926 strings with 15797 characters,
+and the built_in function-call counts, 27803 in all, are:
+= -- 2391
+> -- 2147
+< -- 29
++ -- 722
+- -- 675
+* -- 2564
+:= -- 4412
+add.period$ -- 198
+call.type$ -- 46
+change.case$ -- 359
+chr.to.int$ -- 45
+cite$ -- 113
+duplicate$ -- 1023
+empty$ -- 1834
+format.name$ -- 737
+if$ -- 5727
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 124
-num.names$ -- 74
-pop$ -- 189
+missing$ -- 43
+newline$ -- 291
+num.names$ -- 190
+pop$ -- 673
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 315
 quote$ -- 0
-skip$ -- 320
+skip$ -- 844
 stack$ -- 0
-substring$ -- 403
-swap$ -- 74
-text.length$ -- 8
+substring$ -- 883
+swap$ -- 119
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 187
-warning$ -- 2
-while$ -- 76
+type$ -- 501
+warning$ -- 21
+while$ -- 191
 width$ -- 0
-write$ -- 296
-(There were 2 warnings)
+write$ -- 696
+(There were 21 warnings)

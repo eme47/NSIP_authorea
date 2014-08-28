@@ -1,9 +1,16 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson(2001)]{Anderson_2001}
+Marti~J. Anderson.
+\newblock {A new method for non-parametric multivariate analysis of variance}.
+\newblock \emph{Austral Ecology}, 26\penalty0 (1):\penalty0 32--46, Feb 2001.
+\newblock \doi{10.1111/j.1442-9993.2001.01070.pp.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1442-9993.2001.01070.pp.x}.
 
 \bibitem[Belnap(2001)]{Belnap_2001}
 J.~Belnap.
@@ -52,6 +59,77 @@ Jayne Belnap.
 \newblock \doi{10.1126/science.1240318}.
 \newblock URL \url{http://www.sciencemag.org/content/340/6140/1533.short}.
 
+\bibitem[Bray and Curtis(1957)]{Bray_1957}
+J.~Roger Bray and J.~T. Curtis.
+\newblock {An Ordination of the Upland Forest Communities of Southern
+  Wisconsin}.
+\newblock \emph{Ecological Monographs}, 27\penalty0 (4):\penalty0 325, Oct
+  1957.
+\newblock \doi{10.2307/1942268}.
+\newblock URL \url{http://dx.doi.org/10.2307/1942268}.
+
+\bibitem[Buckley(2011)]{Buckley_2011}
+Daniel~H. Buckley.
+\newblock {Stable Isotope Probing Techniques Using 15N}.
+\newblock In \emph{Stable Isotope Probing and Related Technologies}, pages
+  129--147. American Society of Microbiology, jan 2011.
+\newblock \doi{10.1128/9781555816896.ch7}.
+\newblock URL \url{http://dx.doi.org/10.1128/9781555816896.ch7}.
+
+\bibitem[Bunge(2010)]{BUNGE_2010}
+John Bunge.
+\newblock Estimating the number of species with catchall.
+\newblock In \emph{Biocomputing 2011}, pages 121--130. WORLD SCIENTIFIC, nov
+  2010.
+\newblock \doi{10.1142/9789814335058_0014}.
+\newblock URL \url{http://dx.doi.org/10.1142/9789814335058_0014}.
+
+\bibitem[Camacho et~al.(2009)Camacho, Coulouris, Avagyan, Ma, Papadopoulos,
+  Bealer, and Madden]{20003500}
+C~Camacho, G~Coulouris, V~Avagyan, N~Ma, J~Papadopoulos, K~Bealer, and
+  TL~Madden.
+\newblock {BLAST+: architecture and applications.}
+\newblock 10:\penalty0 421, Dec 2009.
+
+\bibitem[Caporaso et~al.(2010)Caporaso, Kuczynski, Stombaugh, Bittinger,
+  Bushman, Costello, Fierer, Peña, Goodrich, Gordon, Huttley, Kelley, Knights,
+  Koenig, Ley, Lozupone, McDonald, Muegge, Pirrung, Reeder, Sevinsky,
+  Turnbaugh, Walters, Widmann, Yatsunenko, Zaneveld, and Knight]{20383131}
+JG~Caporaso, J~Kuczynski, J~Stombaugh, K~Bittinger, FD~Bushman, EK~Costello,
+  N~Fierer, AG~Peña, JK~Goodrich, JI~Gordon, GA~Huttley, ST~Kelley, D~Knights,
+  JE~Koenig, RE~Ley, CA~Lozupone, D~McDonald, BD~Muegge, M~Pirrung, J~Reeder,
+  JR~Sevinsky, PJ~Turnbaugh, WA~Walters, J~Widmann, T~Yatsunenko, J~Zaneveld,
+  and R~Knight.
+\newblock {QIIME allows analysis of high-throughput community sequencing data.}
+\newblock 7:\penalty0 335--6, 2010.
+
+\bibitem[Cock et~al.(2009)Cock, Antao, Chang, Chapman, Cox, Dalke, Friedberg,
+  Hamelryck, Kauff, Wilczynski, and de]{19304878}
+PJ~Cock, T~Antao, JT~Chang, BA~Chapman, CJ~Cox, A~Dalke, I~Friedberg,
+  T~Hamelryck, F~Kauff, B~Wilczynski, and Hoon~MJ de.
+\newblock {Biopython: freely available Python tools for computational molecular
+  biology and bioinformatics.}
+\newblock 25:\penalty0 1422--3, 2009.
+
+\bibitem[DeSantis et~al.(2006)DeSantis, Hugenholtz, Keller, Brodie, Larsen,
+  Piceno, Phan, and Andersen]{16845035}
+TZ~Jr DeSantis, P~Hugenholtz, K~Keller, EL~Brodie, N~Larsen, YM~Piceno, R~Phan,
+  and GL~Andersen.
+\newblock {NAST: a multiple sequence alignment server for comparative analysis
+  of 16S rRNA genes.}
+\newblock 34:\penalty0 W394--9, 2006.
+
+\bibitem[Edgar(2010)]{20709691}
+RC~Edgar.
+\newblock {Search and clustering orders of magnitude faster than BLAST.}
+\newblock 26:\penalty0 2460--1, 2010.
+
+\bibitem[Edgar(2013)]{23955772}
+RC~Edgar.
+\newblock {UPARSE: highly accurate OTU sequences from microbial amplicon
+  reads.}
+\newblock 10:\penalty0 996--8, 2013.
+
 \bibitem[Evans and Belnap(1999)]{Evans_1999}
 R.~D. Evans and J.~Belnap.
 \newblock {Long-Term Consequences of Disturbance on Nitrogen Dynamics in an
@@ -95,6 +173,14 @@ Ferran Garcia-Pichel, Jayne Belnap, Susanne Neuer, and Ferdinand Schanz.
 \newblock \emph{Algological Studies}, 109\penalty0 (1):\penalty0 213--227,
   2003{\natexlab{b}}.
 
+\bibitem[Griese et~al.(2011)Griese, Lange, and Soppa]{Griese_2011}
+Marco Griese, Christian Lange, and Jörg Soppa.
+\newblock {Ploidy in cyanobacteria}.
+\newblock \emph{FEMS Microbiology Letters}, 323\penalty0 (2):\penalty0
+  124--131, sep 2011.
+\newblock \doi{10.1111/j.1574-6968.2011.02368.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1574-6968.2011.02368.x}.
+
 \bibitem[Johnson et~al.(2005)Johnson, Budinoff, Belnap, and
   Garcia-Pichel]{15643930}
 SL~Johnson, CR~Budinoff, J~Belnap, and F~Garcia-Pichel.
@@ -111,6 +197,102 @@ A.~Karnieli, R.F. Kokaly, N.E. West, and R.N. Clark.
 \newblock ISBN 978-3-540-43757-4.
 \newblock \doi{10.1007/978-3-642-56475-8_31}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_31}.
+
+\bibitem[Knight et~al.(2007)Knight, Maxwell, Birmingham, Carnes, Caporaso,
+  Easton, Eaton, Hamady, Lindsay, Liu, Lozupone, McDonald, Robeson, Sammut,
+  Smit, Wakefield, Widmann, Wikman, Wilson, Ying, and Huttley]{Knight_2007}
+Rob Knight, Peter Maxwell, Amanda Birmingham, Jason Carnes, J~Gregory Caporaso,
+  Brett~C Easton, Michael Eaton, Micah Hamady, Helen Lindsay, Zongzhi Liu,
+  Catherine Lozupone, Daniel McDonald, Michael Robeson, Raymond Sammut, Sandra
+  Smit, Matthew~J Wakefield, Jeremy Widmann, Shandy Wikman, Stephanie Wilson,
+  Hua Ying, and Gavin~A Huttley.
+\newblock {$\lbrace$PyCogent$\rbrace$: a toolkit for making sense from
+  sequence}.
+\newblock \emph{Genome Biol}, 8\penalty0 (8):\penalty0 R171, 2007.
+\newblock \doi{10.1186/gb-2007-8-8-r171}.
+\newblock URL \url{http://dx.doi.org/10.1186/gb-2007-8-8-r171}.
+
+\bibitem[Love et~al.(2014)Love, Huber, and Anders]{Love_2014}
+M.~I. Love, W.~Huber, and S.~Anders.
+\newblock {Moderated estimation of fold change and dispersion for
+  $\lbrace$RNA$\rbrace$-Seq data with $\lbrace$DESeq$\rbrace$2}.
+\newblock Technical report, feb 2014.
+\newblock URL \url{http://dx.doi.org/10.1101/002832}.
+
+\bibitem[Lozupone and Knight(2005)]{16332807}
+C~Lozupone and R~Knight.
+\newblock {UniFrac: a new phylogenetic method for comparing microbial
+  communities.}
+\newblock 71:\penalty0 8228--35, 2005.
+
+\bibitem[Matsen et~al.(2010)Matsen, Kodner, and Armbrust]{Matsen_2010}
+Frederick~A Matsen, Robin~B Kodner, and E~Virginia Armbrust.
+\newblock {pplacer: linear time maximum-likelihood and Bayesian phylogenetic
+  placement of sequences onto a fixed reference tree}.
+\newblock \emph{BMC Bioinformatics}, 11\penalty0 (1):\penalty0 538, 2010.
+\newblock \doi{10.1186/1471-2105-11-538}.
+\newblock URL \url{http://dx.doi.org/10.1186/1471-2105-11-538}.
+
+\bibitem[McKinney(2012)]{citeulike:11241428}
+Wes McKinney.
+\newblock {pandas: Python Data Analysis Library}.
+\newblock Online, 2012.
+\newblock URL \url{http://pandas.pydata.org/}.
+
+\bibitem[McMurdie and Holmes(2014)]{24699258}
+PJ~McMurdie and S~Holmes.
+\newblock {Waste not, want not: why rarefying microbiome data is inadmissible.}
+\newblock 10:\penalty0 e1003531, 2014.
+
+\bibitem[Nawrocki and Eddy(2013)]{24008419}
+EP~Nawrocki and SR~Eddy.
+\newblock {Infernal 1.1: 100-fold faster RNA homology searches.}
+\newblock 29:\penalty0 2933--5, Nov 2013.
+
+\bibitem[Nawrocki et~al.(2009)Nawrocki, Kolbe, and Eddy]{19307242}
+EP~Nawrocki, DL~Kolbe, and SR~Eddy.
+\newblock {Infernal 1.0: inference of RNA alignments.}
+\newblock 25:\penalty0 1335--7, May 2009.
+
+\bibitem[Neufeld et~al.()Neufeld, Vohra, Dumont, Lueders, Manefield, Friedrich,
+  and Murrell]{17446886}
+JD~Neufeld, J~Vohra, MG~Dumont, T~Lueders, M~Manefield, MW~Friedrich, and
+  JC~Murrell.
+\newblock {DNA stable-isotope probing.}
+\newblock 2:\penalty0 860--6.
+
+\bibitem[Oksanen et~al.(2013)Oksanen, Blanchet, Kindt, Legendre, Minchin,
+  O'Hara, Simpson, Solymos, Stevens, and Wagner]{vegan}
+Jari Oksanen, F.~Guillaume Blanchet, Roeland Kindt, Pierre Legendre, Peter~R.
+  Minchin, R.~B. O'Hara, Gavin~L. Simpson, Peter Solymos, M.~Henry~H. Stevens,
+  and Helene Wagner.
+\newblock \emph{{vegan: Community Ecology Package}}, 2013.
+\newblock URL \url{http://CRAN.R-project.org/package=vegan}.
+\newblock R package version 2.0-10.
+
+\bibitem[Price et~al.(2010)Price, Dehal, and Arkin]{20224823}
+MN~Price, PS~Dehal, and AP~Arkin.
+\newblock {FastTree 2--approximately maximum-likelihood trees for large
+  alignments.}
+\newblock 5:\penalty0 e9490, Mar 2010.
+
+\bibitem[Pruesse et~al.(2007)Pruesse, Quast, Knittel, Fuchs, Ludwig, Peplies,
+  and Glöckner]{17947321}
+E~Pruesse, C~Quast, K~Knittel, BM~Fuchs, W~Ludwig, J~Peplies, and FO~Glöckner.
+\newblock {SILVA: a comprehensive online resource for quality checked and
+  aligned ribosomal RNA sequence data compatible with ARB.}
+\newblock 35:\penalty0 7188--96, 2007.
+
+\bibitem[Schloss et~al.(2009)Schloss, Westcott, Ryabin, Hall, Hartmann,
+  Hollister, Lesniewski, Oakley, Parks, Robinson, Sahl, Stres, Thallinger, Van,
+  and Weber]{19801464}
+PD~Schloss, SL~Westcott, T~Ryabin, JR~Hall, M~Hartmann, EB~Hollister,
+  RA~Lesniewski, BB~Oakley, DH~Parks, CJ~Robinson, JW~Sahl, B~Stres,
+  GG~Thallinger, Horn~DJ Van, and CF~Weber.
+\newblock {Introducing mothur: open-source, platform-independent,
+  community-supported software for describing and comparing microbial
+  communities.}
+\newblock 75:\penalty0 7537--41, 2009.
 
 \bibitem[Steppe et~al.(1996)Steppe, Olson, Paerl, Litaker, and
   Belnap]{Steppe_1996}
@@ -131,6 +313,38 @@ Blaire Steven, La~Verne Gallegos-Graves, Jayne Belnap, and Cheryl~R. Kuske.
   2013.
 \newblock \doi{10.1111/1574-6941.12143}.
 \newblock URL \url{http://dx.doi.org/10.1111/1574-6941.12143}.
+
+\bibitem[Walters et~al.(2011)Walters, Caporaso, Lauber, Berg-Lyons, Fierer, and
+  Knight]{21349862}
+WA~Walters, JG~Caporaso, CL~Lauber, D~Berg-Lyons, N~Fierer, and R~Knight.
+\newblock {PrimerProspector: de novo design and taxonomic analysis of barcoded
+  polymerase chain reaction primers.}
+\newblock 27:\penalty0 1159--61, Apr 2011.
+
+\bibitem[Wickham(2009)]{ggplot2}
+Hadley Wickham.
+\newblock \emph{{ggplot2: elegant graphics for data analysis}}.
+\newblock Springer New York, 2009.
+\newblock ISBN 978-0-387-98140-6.
+\newblock URL \url{http://had.co.nz/ggplot2/book}.
+
+\bibitem[Wickham and Francois(2014)]{dplyr}
+Hadley Wickham and Romain Francois.
+\newblock \emph{{dplyr: dplyr: a grammar of data manipulation}}, 2014.
+\newblock URL \url{http://CRAN.R-project.org/package=dplyr}.
+\newblock R package version 0.2.
+
+\bibitem[Yarza et~al.(2008)Yarza, Richter, Peplies, Euzeby, Amann, Schleifer,
+  Ludwig, Gl\"ockner, and Rossell\'o-M\'ora]{Yarza_2008}
+Pablo Yarza, Michael Richter, J\"org Peplies, Jean Euzeby, Rudolf Amann,
+  Karl-Heinz Schleifer, Wolfgang Ludwig, Frank~Oliver Gl\"ockner, and Ramon
+  Rossell\'o-M\'ora.
+\newblock {The All-Species Living Tree project: A 16S rRNA-based phylogenetic
+  tree of all sequenced type strains}.
+\newblock \emph{Systematic and Applied Microbiology}, 31\penalty0 (4):\penalty0
+  241--250, Sep 2008.
+\newblock \doi{10.1016/j.syapm.2008.07.001}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.syapm.2008.07.001}.
 
 \bibitem[Yeager et~al.(2006)Yeager, Kornosky, Morgan, Cain, Garcia-Pichel,
   Housman, Belnap, and Kuske]{Yeager}
@@ -162,5 +376,11 @@ CM~Yeager, JL~Kornosky, DC~Housman, EE~Grote, J~Belnap, and CR~Kuske.
   stages of biological soil crusts from the Colorado Plateau and Chihuahuan
   Desert.}
 \newblock 70:\penalty0 973--83, 2004.
+
+\bibitem[Youngblut and Buckley(2014)]{25139123}
+ND~Youngblut and DH~Buckley.
+\newblock {Intra-genomic variation in G+C content and its implications for DNA
+  stable isotope probing (DNA-SIP).}
+\newblock Aug 2014.
 
 \end{thebibliography}
