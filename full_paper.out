@@ -1,0 +1,38 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Results}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Comparison of sequence collections at "study"-level}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Comparisons of OTU content}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Comparisons of Taxonomic Content}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Ordination of CsCl gradient fraction SSU rRNA libraries}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Identities of possible 15N incorporators}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Distribution of BSC Diazotrophs in Environmental Samples}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Non-Cyanobacterial Taxa}{subsection.2.4}% 9
+\BOOKMARK [4][-]{section*.1}{Clostridiacea}{subsubsection.2.4.1}% 10
+\BOOKMARK [4][-]{section*.2}{Gammaproteobacteria}{subsubsection.2.4.1}% 11
+\BOOKMARK [4][-]{section*.3}{Other taxa}{subsubsection.2.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Heterocystous Cyanobacteria}{subsection.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Richness estimates}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Discussion}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Ordination of CsCl gradient fraction 16S libraries}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{BSC diazotrophs identified in the study}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Sequencing depth}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.4}{Temperature influences on heterocystous cyanobacteria relative abundance}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.5}{Analysis of next-generation-sequencing DNA-SIP data}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.6}{Conclusion}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Materials and Methods}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Field sites}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Soil crust incubation}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{DNA extraction}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.4}{DNA-SIP}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.5}{PCR, library normalization and DNA sequencing}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.6}{Data analysis}{section.4}% 28
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Sequence quality control}{subsection.4.6}% 29
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Sequence clustering}{subsection.4.6}% 30
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Merging data from this study, GarciaPichel2013, and Steven2013}{subsection.4.6}% 31
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Phylogenetic tree}{subsection.4.6}% 32
+\BOOKMARK [4][-]{section*.4}{Placement of short sequences into backbone phylogeny}{subsubsection.4.6.4}% 33
+\BOOKMARK [3][-]{subsubsection.4.6.5}{BLAST searches}{subsection.4.6}% 34
+\BOOKMARK [3][-]{subsubsection.4.6.6}{Identifying OTUs that inocorporated 15N into their DNA}{subsection.4.6}% 35
+\BOOKMARK [3][-]{subsubsection.4.6.7}{Ordination}{subsection.4.6}% 36
+\BOOKMARK [3][-]{subsubsection.4.6.8}{Differential abundance in environmental samples}{subsection.4.6}% 37
+\BOOKMARK [2][-]{subsection.4.7}{Richness analyses}{section.4}% 38
