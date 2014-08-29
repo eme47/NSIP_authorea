@@ -78,7 +78,7 @@ Daniel~H. Buckley.
 
 \bibitem[Bunge(2010)]{BUNGE_2010}
 John Bunge.
-\newblock Estimating the number of species with catchall.
+\newblock {Estimating the Number of Species with Catchall}.
 \newblock In \emph{Biocomputing 2011}, pages 121--130. WORLD SCIENTIFIC, nov
   2010.
 \newblock \doi{10.1142/9789814335058_0014}.
@@ -146,6 +146,15 @@ R.~D. Evans and O.~L. Lange.
   pages 263--279. Springer Science + Business Media, 2001.
 \newblock \doi{10.1007/978-3-642-56475-8_20}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-56475-8_20}.
+
+\bibitem[Gaby and Buckley(2012)]{Gaby_2012}
+John~Christian Gaby and Daniel~H. Buckley.
+\newblock {A Comprehensive Evaluation of $\lbrace$PCR$\rbrace$ Primers to
+  Amplify the $\lbrace$nifH$\rbrace$ Gene of Nitrogenase}.
+\newblock \emph{$\lbrace$PLoS$\rbrace$ $\lbrace$ONE$\rbrace$}, 7\penalty0
+  (7):\penalty0 e42149, jul 2012.
+\newblock \doi{10.1371/journal.pone.0042149}.
+\newblock URL \url{http://dx.doi.org/10.1371/journal.pone.0042149}.
 
 \bibitem[Garcia-Pichel et~al.(2003{\natexlab{a}})Garcia-Pichel, Johnson,
   Youngkin, and Belnap]{Garcia_Pichel_2003}
@@ -219,12 +228,6 @@ M.~I. Love, W.~Huber, and S.~Anders.
 \newblock Technical report, feb 2014.
 \newblock URL \url{http://dx.doi.org/10.1101/002832}.
 
-\bibitem[Lozupone and Knight(2005)]{16332807}
-C~Lozupone and R~Knight.
-\newblock {UniFrac: a new phylogenetic method for comparing microbial
-  communities.}
-\newblock 71:\penalty0 8228--35, 2005.
-
 \bibitem[Matsen et~al.(2010)Matsen, Kodner, and Armbrust]{Matsen_2010}
 Frederick~A Matsen, Robin~B Kodner, and E~Virginia Armbrust.
 \newblock {pplacer: linear time maximum-likelihood and Bayesian phylogenetic
@@ -254,12 +257,12 @@ EP~Nawrocki, DL~Kolbe, and SR~Eddy.
 \newblock {Infernal 1.0: inference of RNA alignments.}
 \newblock 25:\penalty0 1335--7, May 2009.
 
-\bibitem[Neufeld et~al.()Neufeld, Vohra, Dumont, Lueders, Manefield, Friedrich,
-  and Murrell]{17446886}
+\bibitem[Neufeld et~al.(2007)Neufeld, Vohra, Dumont, Lueders, Manefield,
+  Friedrich, and Murrell]{17446886}
 JD~Neufeld, J~Vohra, MG~Dumont, T~Lueders, M~Manefield, MW~Friedrich, and
   JC~Murrell.
 \newblock {DNA stable-isotope probing.}
-\newblock 2:\penalty0 860--6.
+\newblock 2:\penalty0 860--6, 2007.
 
 \bibitem[Oksanen et~al.(2013)Oksanen, Blanchet, Kindt, Legendre, Minchin,
   O'Hara, Simpson, Solymos, Stevens, and Wagner]{vegan}

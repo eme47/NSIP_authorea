@@ -11,13 +11,10 @@ Warning--empty journal in 20709691
 Warning--empty journal in 23955772
 Warning--empty journal in 15643930
 Warning--empty institution in Love_2014
-Warning--empty journal in 16332807
 Warning--empty journal in 24699258
 Warning--empty journal in 24008419
 Warning--empty journal in 19307242
 Warning--empty journal in 17446886
-Warning--empty year in 17446886
-Warning--empty year in 17446886
 Warning--empty journal in 20224823
 Warning--empty journal in 17947321
 Warning--empty journal in 19801464
@@ -26,43 +23,43 @@ Warning--empty journal in 14766579
 Warning--empty journal in 25139123
 You've used 46 entries,
             2773 wiz_defined-function locations,
-            926 strings with 15797 characters,
-and the built_in function-call counts, 27803 in all, are:
-= -- 2391
+            931 strings with 16054 characters,
+and the built_in function-call counts, 27823 in all, are:
+= -- 2397
 > -- 2147
 < -- 29
 + -- 722
 - -- 675
-* -- 2564
-:= -- 4412
-add.period$ -- 198
+* -- 2569
+:= -- 4419
+add.period$ -- 200
 call.type$ -- 46
 change.case$ -- 359
 chr.to.int$ -- 45
-cite$ -- 113
+cite$ -- 110
 duplicate$ -- 1023
 empty$ -- 1834
 format.name$ -- 737
-if$ -- 5727
+if$ -- 5732
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 43
-newline$ -- 291
+newline$ -- 293
 num.names$ -- 190
-pop$ -- 673
+pop$ -- 664
 preamble$ -- 1
 purify$ -- 315
 quote$ -- 0
-skip$ -- 844
+skip$ -- 847
 stack$ -- 0
-substring$ -- 883
-swap$ -- 119
+substring$ -- 880
+swap$ -- 121
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 501
-warning$ -- 21
+warning$ -- 18
 while$ -- 191
 width$ -- 0
-write$ -- 696
-(There were 21 warnings)
+write$ -- 702
+(There were 18 warnings)
