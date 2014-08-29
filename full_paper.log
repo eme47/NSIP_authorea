@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  28 AUG 2014 20:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  28 AUG 2014 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,30 +1095,39 @@ ne 59.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/LTP_blast_table/LTP_blast_table.png, id=787, 778.91pt x 1031.855pt>
-File: figures/LTP_blast_table/LTP_blast_table.png Graphic file (type png)
-
-<use figures/LTP_blast_table/LTP_blast_table.png>
-Package pdftex.def Info: figures/LTP_blast_table/LTP_blast_table.png used on in
-put line 66.
-(pdftex.def)             Requested size: 504.0pt x 667.65906pt.
+(./LTP_table.tex
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
 
 
-LaTeX Warning: Float too large for page by 58.39099pt on input line 69.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 6.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 6.
 
-<figures/clost.tree/clost_tree.png, id=788, 791.95876pt x 963.6pt>
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 6.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 6.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
+) <figures/clost.tree/clost_tree.png, id=787, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
 Package pdftex.def Info: figures/clost.tree/clost_tree.png used on input line 7
-3.
+4.
 (pdftex.def)             Requested size: 504.0pt x 613.24663pt.
 
 
-LaTeX Warning: Float too large for page by 23.97856pt on input line 76.
+LaTeX Warning: Float too large for page by 23.97856pt on input line 77.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1182,10 +1191,13 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [22 <./figures/het_sparsity/het_sparsity.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[23 <./figures/LTP_blast_table/LTP_blast_table.png>]
+[23]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -1205,13 +1217,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9758 strings out of 493485
- 143450 string characters out of 3143526
- 279758 words of memory out of 3000000
- 12658 multiletter control sequences out of 15000+200000
- 51166 words of font info for 113 fonts, out of 3000000 for 9000
+ 9793 strings out of 493485
+ 143801 string characters out of 3143526
+ 287088 words of memory out of 3000000
+ 12685 multiletter control sequences out of 15000+200000
+ 60124 words of font info for 133 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,8n,37p,1681b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,10n,37p,1681b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1224,12 +1236,13 @@ m/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
 exlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (24 pages, 2274380 bytes).
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on full_paper.pdf (24 pages, 2255020 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 859 compressed objects within 9 object streams
+ 929 PDF objects out of 1000 (max. 8388607)
+ 862 compressed objects within 9 object streams
  122 named destinations out of 1000 (max. 500000)
- 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
