@@ -1,3 +1,5 @@
+\input{LTP_table.tex}
+
 \begin{figure}[h!]
   \centering
     \includegraphics[width=0.5\textwidth]{figures/study_phylum_dist/study_phylum_dist.png}
@@ -17,6 +19,13 @@
     \includegraphics[width=0.7\textwidth]{figures/l2fc1/l2fc_stacked_w_inset.png}
   \caption{Moderated log$_{2}$ of proportion mean ratios for labeled versus control gradients (heavy fractions only, densities >1.725 g/mL). All OTUs found in at least 62.5\% of heavy fractions at a specific incubation day are shown. Red color denotes a proportion mean ratio that has a corresponding adjusted p-value below a false discovery rate of 10\% (the null model is that the proportion mean is ratio is below 0.25). The horizontal line is the proportion mean threshold for the null model, 0.25. The inset figure summarizes the taxonomy of OTUs that with proportion mean ratio p-vaules under 0.10 for at least one time point.}
   \label{fig:l2fc}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=1.0\textwidth]{figures/scatter_heavy_topN2/scatter_heavy_topN.png}
+  \caption{Relative abundance values in heavy fractions (density greater or equal to 1.725 g/mL) for the top 10 $^{15}$N "responders" (putative diazotrophs, see results for selection criteria of top 10) at each incubation day. See Table X for BLAST results of top 10 responders against the LTP database (release 115). Point area is proportional to CsCl gradient fraction density, and color signifies control (red) or labeled (blue) treatment.}
+  \label{fig:scatter_heavy}
 \end{figure}
 
 \begin{figure}[h!]
@@ -61,17 +70,9 @@
   \label{fig:het_sparsity}
 \end{figure}
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=1.0\textwidth]{figures/scatter_heavy_topN2/scatter_heavy_topN.png}
-  \caption{Relative abundance values in heavy fractions (density greater or equal to 1.725 g/mL) for the top 10 $^{15}$N "responders" (putative diazotrophs, see results for selection criteria of top 10) at each incubation day. See Table X for BLAST results of top 10 responders against the LTP database (release 115). Point area is proportional to CsCl gradient fraction density, and color signifies control (red) or labeled (blue) treatment.}
-  \label{fig:scatter_heavy}
-\end{figure}
-
 %\begin{figure}[h!]
 %  \centering
 %    \includegraphics[width=1.0\textwidth]{figures/LTP_blast_table/LTP_blast_table.png}
 %  \caption{Replace this text with your caption}
 %  \label{tab:LTP_blast}
 %\end{figure}
-\input{LTP_table.tex}
