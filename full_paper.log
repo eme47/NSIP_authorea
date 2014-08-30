@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 AUG 2014 10:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 AUG 2014 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -843,14 +843,8 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [8]
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no º in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
@@ -871,71 +865,71 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 114.
+(hyperref)                removing `\begingroup' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 114.
+(hyperref)                removing `\let' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 114.
+(hyperref)                removing `\<let>-command' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 114.
+(hyperref)                removing `\NAT@ctype' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 114.
+(hyperref)                removing `\z@' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 114.
+(hyperref)                removing `\let' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 114.
+(hyperref)                removing `\new@ifnextchar' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 114.
+(hyperref)                removing `subscript' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 114.
+(hyperref)                removing `subscript' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 114.
+(hyperref)                removing `\begingroup' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 114.
+(hyperref)                removing `\let' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 114.
+(hyperref)                removing `\<let>-command' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\NAT@ctype' on input line 114.
+(hyperref)                removing `\NAT@ctype' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 114.
+(hyperref)                removing `\z@' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\let' on input line 114.
+(hyperref)                removing `\let' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 114.
+(hyperref)                removing `\new@ifnextchar' on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 114.
+(hyperref)                removing `subscript' on input line 115.
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
@@ -944,15 +938,15 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 156.
+(hyperref)                removing `superscript' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 157.
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -961,18 +955,19 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Overfull \vbox (2.0245pt too high) has occurred while \output is active []
-
-
-[11]
-Underfull \hbox (badness 1803) in paragraph at lines 211--216
+Underfull \hbox (badness 1803) in paragraph at lines 212--217
  \OT1/ptm/m/it/12 5.6.8 Differential abundance in environmental samples[][] \OT
 1/ptm/m/n/12 Significance of OTU proportion mean
  []
 
-) (./full_paper.bbl
+
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[11]) (./full_paper.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 13.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Missing character: There is no √ in font ptmr7t!
@@ -1019,7 +1014,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
 )
-<figures/study_phylum_dist/study_phylum_dist.png, id=773, 1100.11pt x 1981.4025
+<figures/study_phylum_dist/study_phylum_dist.png, id=775, 1100.11pt x 1981.4025
 pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1029,7 +1024,7 @@ n input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=774, 301
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=776, 301
 7.2725pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
@@ -1042,7 +1037,7 @@ w_inset.png used on input line 12.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/l2fc1/l2fc_stacked_w_inset.png, id=776, 2288.55pt x 2921.91624pt>
+<figures/l2fc1/l2fc_stacked_w_inset.png, id=778, 2288.55pt x 2921.91624pt>
 File: figures/l2fc1/l2fc_stacked_w_inset.png Graphic file (type png)
 
 <use figures/l2fc1/l2fc_stacked_w_inset.png>
@@ -1054,7 +1049,7 @@ ine 19.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=777, 3447.88126pt x 170
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=779, 3447.88126pt x 170
 1.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1066,7 +1061,7 @@ d on input line 26.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/clost.tree/clost_tree.png, id=778, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=780, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1080,7 +1075,7 @@ LaTeX Warning: Float too large for page by 23.97856pt on input line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/rspndr_dist/rspndr_dist.png, id=781, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=783, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1091,7 +1086,7 @@ Package pdftex.def Info: figures/rspndr_dist/rspndr_dist.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_cyano_temp/het_cyano_temp.png, id=790, 2304.61pt x 1387.1825pt>
+<figures/het_cyano_temp/het_cyano_temp.png, id=792, 2304.61pt x 1387.1825pt>
 File: figures/het_cyano_temp/het_cyano_temp.png Graphic file (type png)
 
 <use figures/het_cyano_temp/het_cyano_temp.png>
@@ -1103,7 +1098,7 @@ t line 47.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=795, 2304.61pt x 147
+<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=797, 2304.61pt x 147
 4.50874pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.png Graphic file (type 
 png)
@@ -1116,7 +1111,7 @@ used on input line 54.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=800, 2863.69875pt x 170
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=802, 2863.69875pt x 170
 1.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1128,7 +1123,7 @@ d on input line 61.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_sparsity/het_sparsity.png, id=811, 1790.69pt x 1379.1525pt>
+<figures/het_sparsity/het_sparsity.png, id=813, 1790.69pt x 1379.1525pt>
 File: figures/het_sparsity/het_sparsity.png Graphic file (type png)
 
 <use figures/het_sparsity/het_sparsity.png>
@@ -1199,7 +1194,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: D1C4FAFDC8A6BA3AFFE8C20BE471C5F2;3108.
+(rerunfilecheck)             Checksum: D936319A896A97F5A2847417C13B8189;3107.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1210,7 +1205,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
 Here is how much of TeX's memory you used:
  9794 strings out of 493485
  143821 string characters out of 3143526
- 279869 words of memory out of 3000000
+ 278885 words of memory out of 3000000
  12686 multiletter control sequences out of 15000+200000
  60124 words of font info for 133 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
@@ -1230,10 +1225,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (23 pages, 2256266 bytes).
+Output written on full_paper.pdf (23 pages, 2256399 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
- 876 compressed objects within 9 object streams
+ 944 PDF objects out of 1000 (max. 8388607)
+ 878 compressed objects within 9 object streams
  122 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
