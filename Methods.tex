@@ -156,8 +156,8 @@ parse and munge BLAST output tables.
 \subsubsection{Identifying OTUs that incorporated $^{15}$N into their DNA}
 SIP is a culture-independent approach towards defining identity-function
 connections in microbial communities \citep{Buckley_2011, 17446886}. Microbes
-incubated in the presence of \textsuperscript{13}C or \textsuperscript{15}N
-labeled substrates will incorporate the stable heavy isotope into biomass if
+incubated in the presence of $^{13}$C or $^{15}$N
+labeled substrates can incorporate the stable heavy isotope into biomass if
 they participate in it's transformation.  Stable isotope labeled nucleic acids
 can then be separated from unlabeled by buoyant density in a CsCl gradient. As
 the buoyant density of a macromolecule is dependent on many factors in addition
@@ -166,38 +166,37 @@ to stable isotope incorporation (e.g.  GC-content in nucleic acids
 the same buoyant density of unlabeled nucleic acids from another (i.e.  each
 populations nucleic acids would be found at the same point along a density
 gradient although only one populations nucleic acids are labeled). Therefore it
-is imperative to compare density gradients with nucleic
-acids from heavy stable isotope incubations to gradients from ``control''
-incubations where everything mimics the experimental conditions except that
-unlabeled substrates
-are used. By contrasting "heavy" density gradient fractions in experimental
-density gradients (hereafter referred to as "labeled" gradients) against heavy
+is imperative to compare density gradients with nucleic acids from heavy stable
+isotope incubations to gradients from ``control'' incubations where everything
+mimics the experimental conditions except that unlabeled substrates are used.
+By contrasting "heavy" density gradient fractions in experimental density
+gradients (hereafter referred to as "labeled" gradients) against heavy
 fractions in control gradients, the identities of microbes with labeled nucleic
 acids can be determined 
 
 We used an RNA-Seq differential expression statistical framework
-\citep{Love_2014} to find OTUs enriched in heavy fractions of labelled gradients
-relative to corresponding density fractions in control gradients (for review of
-RNA-Seq differential expression statistics applied to microbiome OTU count data
-see \citet{24699258}). We use the term “differential abundance” (coined
-by \citet{24699258}) to denote OTUs that have different proportion means
-across sample classes (in this case the only sample class is labeled/control).
-CsCl gradient fractions were categorized as "heavy" or "light". The heavy
-category denotes fractions with density values above 1.725 g/mL. Since we are
-only interested in enriched OTUs (labeled versus control), we used a one-sided
-z-test for differential abundance (the null hypothesis is the
-labeled:control proportion mean ratio for an OTU is less than a selected
-threshold). We selected a null threshold of 0.25 (or a labeled:control
-proportion mean ratio of 1.19). DESeq2 was used to calculate the moderated
+\citep{Love_2014} to find OTUs enriched in heavy fractions of labelled
+gradients relative to corresponding density fractions in control gradients (for
+review of RNA-Seq differential expression statistics applied to microbiome OTU
+count data see \citet{24699258}). We use the term “differential abundance”
+(coined by \citet{24699258}) to denote OTUs that have different proportion
+means across sample classes (in this case the only sample class is
+labeled/control).  CsCl gradient fractions were categorized as "heavy" or
+"light". The heavy category denotes fractions with density values above 1.725
+g/mL. Since we are only interested in enriched OTUs (labeled versus control),
+we used a one-sided z-test for differential abundance (the null hypothesis is
+the labeled:control proportion mean ratio for an OTU is less than a selected
+threshold). P-values were corrected with the Benjamini and Hochberg method
+CITE. We selected a null threshold of 0.25 (or a labeled:control proportion
+mean ratio of 1.19). DESeq2 was used to calculate the moderated
 log$_{2}$ fold change of labeled:control proportion mean ratios and
 corresponding standard errors. Mean ratio moderation allows for reliable ratio
 ranking such that high variance and likely statistically insignificant mean
 ratios are appropriately shrunk and subsequently ranked lower than they would
 be as raw ratios. To summarize, OTUs with high moderated labeled:control mean
 ratios have higher proportion means in heavy fractions of labeled gradients
-relative to
-heavy fractions of control gradients, and therefore have likely incorporated
-$^{15}$N into their DNA during the incubation.
+relative to heavy fractions of control gradients, and therefore have likely
+incorporated $^{15}$N into their DNA during the incubation.
 
 \subsubsection{Ordination}
 Principal coordinate ordinations depict the relationship between samples at
@@ -213,7 +212,8 @@ Significance of OTU proportion mean differences with mean annual temperature
 (for \citet{Garcia_Pichel_2013} data) and sample type (``BSC'' or ``below crust''
 \citet{Steven_2013} data) was determined using the DESeq2 framework
 \citep{24699258, Love_2014}. A sparsity threshold of 0.40 was set to screen out
-sparse OTUs.  
+sparse OTUs. No p-value correction was done for differential abundance in 
+environmental samples as only six OTUs were considered for any test.
 
 \subsection{Richness analyses} Rarefaction curves were created using
 bioinformatics modules in the PyCogent Python package \citep{Knight_2007}.
