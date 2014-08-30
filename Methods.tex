@@ -4,14 +4,14 @@
 \subsection{DNA extraction}
 DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit (following manufacturer’s protocol, but substituting a 2 minute bead beating for the vortexing step), and then gel purified. Extracts were quantified using PicoGreen nucleic acid quantification dyes (Molecular Probes). 
 \subsection{DNA-SIP}
- Gradient density centrifugation of DNA was undertaken in 6 mL polyallomer centrifuge tubes in a TLA-110 fixed angle rotor (both Beckman Coulter) in CsCl gradients with an average density of 1.725 g mL-1.  Average density for all prepared gradients was checked with an AR200 refractometer before runs. Between 2.5- 5 μg of DNA extract was added to the CsCl solution, and gradients were run under conditions of 20°C for 67 hours at 55,000 rpm (Lueders et al., 2004). Centrifuged gradients were fractionated from bottom to top in 36 equal fractions of 100 μL, using a displacement technique similar to Manefield et al. (2002). The density of each fraction was determined using a refractometer. DNA in each fraction was desalted through four washes with 300 μL TE per fraction. 
+ Gradient density centrifugation of DNA was undertaken in 6 mL polyallomer centrifuge tubes in a TLA-110 fixed angle rotor (both Beckman Coulter) in CsCl gradients with an average density of 1.725 g mL-1.  Average density for all prepared gradients was checked with an AR200 refractometer before runs. Between 2.5- 5 $\mu$g of DNA extract was added to the CsCl solution, and gradients were run under conditions of 20°C for 67 hours at 55,000 rpm (Lueders et al., 2004). Centrifuged gradients were fractionated from bottom to top in 36 equal fractions of 100 $\mu$L, using a displacement technique similar to Manefield et al. (2002). The density of each fraction was determined using a refractometer. DNA in each fraction was desalted through four washes with 300 $\mu$L TE per fraction. 
 \subsection{PCR, library normalization and DNA sequencing}
 Barcoded PCR of bacterial and archaeal 16S rRNA genes, in preparation for 454
 Pyrosequencing, was carried out using primer set 515F/806R \citep{21349862}.
 The primer 806R contained an 8 bp barcode sequence, a "TC" linker, and a Roche
 454 B sequencing adaptor, while the primer 515F contained the Roche 454 A
 sequencing adapter. Each 25 $\mu$L reaction contained 1x PCR Gold Buffer
-(Roche), 2.5 mM MgCl2, 200 $\mu$M of each of the four dNTPs (Promega), 0.5
+(Roche), 2.5 mM MgCl$_{2}$, 200 $\mu$M of each of the four dNTPs (Promega), 0.5
 mg/mL BSA (New England Biolabs), 0.3 $\mu$M of each primers, 1.25 U of Amplitaq
 Gold (Roche), and 8 $\mu$L of template. Template for each sample was added at
 normalized amounts in an attempt to prevent chimera formation, and each sample
@@ -31,8 +31,9 @@ Selah Genomics) to be run on a Roche FLX 454 pyrosequencing machine.
 maximum expected errors at a specific read length threshold \citep{23955772}
 which has been shown to be as effective as denoising 454 reads with respect to
 removing pyrosequencing errors. Specifically, reads were first truncated to 230
-nt (all reads shorter than 230 nt were discarded) and any read that exceeded a
-maximum expected error threshold of 1.0 was removed. After truncation and max
+nucleotides (nt) (all reads shorter than 230 nt were discarded) and any read that
+exceeded a maximum expected error threshold of 1.0 was removed. After
+truncation and max
 expected error trimming, 91\% of original reads remained. The first 30 nt
 representing the forward primer and barcode on high quality, truncated reads
 were trimmed. Remaining reads were taxonomically annotated using the "UClust"
@@ -48,7 +49,7 @@ control parameters removed 34716 of 258763 raw reads.
 
 \subsubsection{Sequence clustering}
 Sequences were distributed into OTUs using the UParse methodology
-\citep{23955772}. Specically, cluster seeds were identified using USearch with
+\citep{23955772}. Specifically, cluster seeds were identified using USearch with
 a collection of non-redundant reads sorted by count as input. The sequence
 identity threshold for establishing a new OTU centroid was 97\%. After initial
 cluster centroid selection, select 16S rRNA sequences trimmed to the same 16S
@@ -125,7 +126,7 @@ SSU-Align which is based on Infernal \citep{24008419, 19307242}. Columns in the
 alignment that were not included in the SSU-Align covariance models or were
 aligned with poor confidence (less than 95\% of characters in a position had
 posterior probability alignment scores of at least 95\%) were masked for
-phylogenetic reconstruction. Additionally, the aligment was trimmed to
+phylogenetic reconstruction. Additionally, the alignment was trimmed to
 coordinates such that all sequences in the alignment began and ended at the
 same positions. The "\textit{Clostridiaceae}" tree included all top BLAST hits
 (parameters below) for $^{15}$N \textit{Clostridiaceae} responders in the
@@ -152,7 +153,7 @@ the BioPython \citep{19304878} BLAST+ wrapper was used to invoke the blastn
 program. Pandas \citep{citeulike:11241428} and dplyr \citep{dplyr} were used to
 parse and munge BLAST output tables.  
 
-\subsubsection{Identifying OTUs that inocorporated $^{15}$N into their DNA}
+\subsubsection{Identifying OTUs that incorporated $^{15}$N into their DNA}
 SIP is a culture-independent approach towards defining identity-function
 connections in microbial communities \citep{Buckley_2011, 17446886}. Microbes
 incubated in the presence of \textsuperscript{13}C or \textsuperscript{15}N
@@ -168,7 +169,7 @@ gradient although only one populations nucleic acids are labeled). Therefore it
 is imperative to compare density gradients with nucleic
 acids from heavy stable isotope incubations to gradients from ``control''
 incubations where everything mimics the experimental conditions except that
-unlabeld substrates
+unlabeled substrates
 are used. By contrasting "heavy" density gradient fractions in experimental
 density gradients (hereafter referred to as "labeled" gradients) against heavy
 fractions in control gradients, the identities of microbes with labeled nucleic
@@ -201,9 +202,9 @@ $^{15}$N into their DNA during the incubation.
 \subsubsection{Ordination}
 Principal coordinate ordinations depict the relationship between samples at
 each time point (day 2 and 4). Bray-Curtis distances were
-used as the sample distance metric for ordination. The tree used in the unifrac
-distance calculations is described above. The Phyloseq \citep{24699258} wrapper
-for Vegan \citep{vegan} (both R packages) was used to compute sample values
+used as the sample distance metric for ordination. The Phyloseq
+\citep{24699258} wrapper for Vegan \citep{vegan} (both R packages) was used to
+compute sample values
 along principal coordinate axes. GGplot2 \citep{ggplot2} was used to display
 sample points along the first and second principal axes.  
 
@@ -215,6 +216,6 @@ Significance of OTU proportion mean differences with mean annual temperature
 sparse OTUs.  
 
 \subsection{Richness analyses} Rarefaction curves were created using
-bioinformatics modules in the PyCognet Python package \citep{Knight_2007}.
+bioinformatics modules in the PyCogent Python package \citep{Knight_2007}.
 Parametric richness estimates were made with CatchAll using only the best model
 total OTU estimates \citep{BUNGE_2010}.
