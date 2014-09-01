@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -58,6 +58,17 @@ Jayne Belnap.
 \newblock \emph{Science}, 340\penalty0 (6140):\penalty0 1533--1534, 2013.
 \newblock \doi{10.1126/science.1240318}.
 \newblock URL \url{http://www.sciencemag.org/content/340/6140/1533.short}.
+
+\bibitem[Beraldi-Campesi et~al.(2009)Beraldi-Campesi, Hartnett, Anbar, Gordon,
+  and Garcia-Pichel]{BERALDI_CAMPESI_2009}
+H.~Beraldi-Campesi, H.~E. Hartnett, A.~Anbar, G.~W. Gordon, and
+  F.~Garcia-Pichel.
+\newblock {Effect of biological soil crusts on soil elemental concentrations:
+  implications for biogeochemistry and as traceable biosignatures of ancient
+  life on land}.
+\newblock \emph{Geobiology}, 7\penalty0 (3):\penalty0 348--359, jun 2009.
+\newblock \doi{10.1111/j.1472-4669.2009.00204.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1472-4669.2009.00204.x}.
 
 \bibitem[Bray and Curtis(1957)]{Bray_1957}
 J.~Roger Bray and J.~T. Curtis.
