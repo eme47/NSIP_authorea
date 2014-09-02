@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  2 SEP 2014 11:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  2 SEP 2014 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,6 +999,10 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
+Package natbib Warning: Citation `citeulike:1042553' on page 12 undefined on in
+put line 212.
+
+
 Underfull \hbox (badness 1803) in paragraph at lines 232--238
  \OT1/ptm/m/it/12 5.6.8 Differential abundance in environmental samples[][] \OT
 1/ptm/m/n/12 Significance of OTU proportion mean
@@ -1232,9 +1236,12 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 [24 <./figures/rarefacation_curves1/raref_and_boxplot.png> <./figures/het_spars
 ity/het_sparsity.png>]
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
- (./full_paper.aux)
+(./full_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
@@ -1247,10 +1254,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9805 strings out of 493485
- 144025 string characters out of 3143526
- 280228 words of memory out of 3000000
- 12692 multiletter control sequences out of 15000+200000
+ 9806 strings out of 493485
+ 144044 string characters out of 3143526
+ 279259 words of memory out of 3000000
+ 12693 multiletter control sequences out of 15000+200000
  60124 words of font info for 133 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
  51i,11n,37p,1688b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1269,7 +1276,7 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (24 pages, 2261061 bytes).
+Output written on full_paper.pdf (24 pages, 2261668 bytes).
 PDF statistics:
  980 PDF objects out of 1000 (max. 8388607)
  912 compressed objects within 10 object streams
