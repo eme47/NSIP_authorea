@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  2 SEP 2014 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  2 SEP 2014 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,7 +714,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<./logo1.jpg, id=168, 30.9155pt x 29.3095pt>
+<./logo1.jpg, id=172, 30.9155pt x 29.3095pt>
 File: ./logo1.jpg Graphic file (type jpg)
  <use ./logo1.jpg>
 Package pdftex.def Info: ./logo1.jpg used on input line 13.
@@ -999,10 +999,6 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Package natbib Warning: Citation `citeulike:1042553' on page 12 undefined on in
-put line 212.
-
-
 Underfull \hbox (badness 1803) in paragraph at lines 232--238
  \OT1/ptm/m/it/12 5.6.8 Differential abundance in environmental samples[][] \OT
 1/ptm/m/n/12 Significance of OTU proportion mean
@@ -1018,13 +1014,12 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [13]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ∂ in font ptmr7t!
 
@@ -1062,121 +1057,125 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
 )
-<figures/study_phylum_dist/study_phylum_dist.png, id=808, 1100.11pt x 1981.4025
+<figures/study_phylum_dist/study_phylum_dist.png, id=818, 1100.11pt x 1981.4025
 pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
 Package pdftex.def Info: figures/study_phylum_dist/study_phylum_dist.png used o
-n input line 5.
+n input line 7.
 (pdftex.def)             Requested size: 252.0pt x 453.86874pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=809, 301
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=819, 301
 7.2725pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
 
 <use figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>
 Package pdftex.def Info: figures/ordination_all_day_facet/ordination_day_facet_
-w_inset.png used on input line 12.
+w_inset.png used on input line 14.
 (pdftex.def)             Requested size: 504.0pt x 202.53804pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/l2fc1/l2fc_stacked_w_inset.png, id=811, 2288.55pt x 2921.91624pt>
+<figures/l2fc1/l2fc_stacked_w_inset.png, id=821, 2288.55pt x 2921.91624pt>
 File: figures/l2fc1/l2fc_stacked_w_inset.png Graphic file (type png)
 
 <use figures/l2fc1/l2fc_stacked_w_inset.png>
 Package pdftex.def Info: figures/l2fc1/l2fc_stacked_w_inset.png used on input l
-ine 19.
+ine 21.
 (pdftex.def)             Requested size: 352.79846pt x 450.3956pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=812, 3447.88126pt x 170
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=822, 3447.88126pt x 170
 1.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
  <use figures/scatter_heavy_topN2/scatter_heavy_topN.png>
 Package pdftex.def Info: figures/scatter_heavy_topN2/scatter_heavy_topN.png use
-d on input line 26.
+d on input line 28.
 (pdftex.def)             Requested size: 504.0pt x 248.67632pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/clost.tree/clost_tree.png, id=813, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=823, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
 Package pdftex.def Info: figures/clost.tree/clost_tree.png used on input line 3
-3.
+5.
 (pdftex.def)             Requested size: 504.0pt x 613.24663pt.
 
 
-LaTeX Warning: Float too large for page by 23.97856pt on input line 36.
+LaTeX Warning: Float too large for page by 23.97856pt on input line 38.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/rspndr_dist/rspndr_dist.png, id=816, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=826, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
 Package pdftex.def Info: figures/rspndr_dist/rspndr_dist.png used on input line
- 40.
+ 42.
 (pdftex.def)             Requested size: 403.20154pt x 221.69135pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_cyano_temp/het_cyano_temp.png, id=825, 2304.61pt x 1387.1825pt>
+<figures/het_cyano_temp/het_cyano_temp.png, id=835, 2304.61pt x 1387.1825pt>
 File: figures/het_cyano_temp/het_cyano_temp.png Graphic file (type png)
 
 <use figures/het_cyano_temp/het_cyano_temp.png>
 Package pdftex.def Info: figures/het_cyano_temp/het_cyano_temp.png used on inpu
-t line 47.
+t line 49.
 (pdftex.def)             Requested size: 504.0pt x 303.36076pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=830, 2304.61pt x 147
+<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=840, 2304.61pt x 147
 4.50874pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.png Graphic file (type 
 png)
  <use figures/het_cyano_steven2013/het_cyano_steven2013.png>
 Package pdftex.def Info: figures/het_cyano_steven2013/het_cyano_steven2013.png 
-used on input line 54.
+used on input line 56.
 (pdftex.def)             Requested size: 504.0pt x 322.458pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=835, 2863.69875pt x 170
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=845, 2863.69875pt x 170
 1.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
  <use figures/rarefacation_curves1/raref_and_boxplot.png>
 Package pdftex.def Info: figures/rarefacation_curves1/raref_and_boxplot.png use
-d on input line 61.
+d on input line 63.
 (pdftex.def)             Requested size: 504.0pt x 299.42924pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_sparsity/het_sparsity.png, id=846, 1790.69pt x 1379.1525pt>
+<figures/het_sparsity/het_sparsity.png, id=856, 1790.69pt x 1379.1525pt>
 File: figures/het_sparsity/het_sparsity.png Graphic file (type png)
 
 <use figures/het_sparsity/het_sparsity.png>
 Package pdftex.def Info: figures/het_sparsity/het_sparsity.png used on input li
-ne 68.
+ne 70.
 (pdftex.def)             Requested size: 302.40308pt x 232.89555pt.
 
 
@@ -1186,14 +1185,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[16 <./figures/study_phylum_dist/study_phylum_dist.png>]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[17 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]
+[17 <./figures/study_phylum_dist/study_phylum_dist.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1207,22 +1206,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[19 <./figures/l2fc1/l2fc_stacked_w_inset.png>]
+[19 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[20 <./figures/scatter_heavy_topN2/scatter_heavy_topN.png>]
+[20 <./figures/l2fc1/l2fc_stacked_w_inset.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[21 <./figures/clost.tree/clost_tree.png (PNG copy)>]
+[21 <./figures/scatter_heavy_topN2/scatter_heavy_topN.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[22 <./figures/rspndr_dist/rspndr_dist.png> <./figures/het_cyano_temp/het_cyano
+[22 <./figures/clost.tree/clost_tree.png (PNG copy)>]
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[23 <./figures/rspndr_dist/rspndr_dist.png> <./figures/het_cyano_temp/het_cyano
 _temp.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1230,22 +1236,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[23 <./figures/het_cyano_steven2013/het_cyano_steven2013.png>]
+[24 <./figures/het_cyano_steven2013/het_cyano_steven2013.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[24 <./figures/rarefacation_curves1/raref_and_boxplot.png> <./figures/het_spars
+[25 <./figures/rarefacation_curves1/raref_and_boxplot.png> <./figures/het_spars
 ity/het_sparsity.png>]
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
-(./full_paper.aux)
+ (./full_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: F6BFE51FA8E3F3583430C9934D0CC1A1;3285.
+(rerunfilecheck)             Checksum: D5D510CE1B4184983259E4E7286B3DFB;3344.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1254,10 +1257,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9806 strings out of 493485
- 144044 string characters out of 3143526
- 279259 words of memory out of 3000000
- 12693 multiletter control sequences out of 15000+200000
+ 9812 strings out of 493485
+ 144149 string characters out of 3143526
+ 281126 words of memory out of 3000000
+ 12696 multiletter control sequences out of 15000+200000
  60124 words of font info for 133 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
  51i,11n,37p,1688b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1276,10 +1279,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (24 pages, 2261668 bytes).
+Output written on full_paper.pdf (25 pages, 2262218 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
- 912 compressed objects within 10 object streams
- 127 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
