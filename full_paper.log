@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  3 SEP 2014 10:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  3 SEP 2014 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,6 +868,11 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [7]
+LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <11.5> not available
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 152.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11.5> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 152.
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -1053,7 +1058,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
 )
-<figures/study_phylum_dist/study_phylum_dist.png, id=821, 1100.11pt x 1981.4025
+<figures/study_phylum_dist/study_phylum_dist.png, id=819, 1100.11pt x 1981.4025
 pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1063,7 +1068,7 @@ n input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=822, 301
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=820, 301
 7.2725pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
@@ -1076,7 +1081,7 @@ w_inset.png used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/l2fc1/l2fc_stacked_w_inset.png, id=824, 2288.55pt x 2921.91624pt>
+<figures/l2fc1/l2fc_stacked_w_inset.png, id=822, 2288.55pt x 2921.91624pt>
 File: figures/l2fc1/l2fc_stacked_w_inset.png Graphic file (type png)
 
 <use figures/l2fc1/l2fc_stacked_w_inset.png>
@@ -1088,7 +1093,7 @@ ine 21.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=825, 3447.88126pt x 170
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=823, 3447.88126pt x 170
 1.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1100,7 +1105,7 @@ d on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/clost.tree/clost_tree.png, id=826, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=824, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1114,7 +1119,7 @@ LaTeX Warning: Float too large for page by 23.97856pt on input line 38.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/rspndr_dist/rspndr_dist.png, id=829, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=827, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1125,7 +1130,7 @@ Package pdftex.def Info: figures/rspndr_dist/rspndr_dist.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_cyano_temp/het_cyano_temp.png, id=838, 2304.61pt x 1387.1825pt>
+<figures/het_cyano_temp/het_cyano_temp.png, id=836, 2304.61pt x 1387.1825pt>
 File: figures/het_cyano_temp/het_cyano_temp.png Graphic file (type png)
 
 <use figures/het_cyano_temp/het_cyano_temp.png>
@@ -1137,7 +1142,7 @@ t line 49.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=843, 2304.61pt x 147
+<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=841, 2304.61pt x 147
 4.50874pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.png Graphic file (type 
 png)
@@ -1150,7 +1155,7 @@ used on input line 56.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=848, 2863.69875pt x 170
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=846, 2863.69875pt x 170
 1.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1162,7 +1167,7 @@ d on input line 63.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_sparsity/het_sparsity.png, id=859, 1790.69pt x 1379.1525pt>
+<figures/het_sparsity/het_sparsity.png, id=857, 1790.69pt x 1379.1525pt>
 File: figures/het_sparsity/het_sparsity.png Graphic file (type png)
 
 <use figures/het_sparsity/het_sparsity.png>
@@ -1233,7 +1238,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 09EDE7440E6BA3E6EACE660B67E011FF;3347.
+(rerunfilecheck)             Checksum: 00678E3F2F5260B6ACDAD58530E09E6B;3347.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1242,11 +1247,11 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9813 strings out of 493485
- 144174 string characters out of 3143526
- 280357 words of memory out of 3000000
- 12698 multiletter control sequences out of 15000+200000
- 60675 words of font info for 134 fonts, out of 3000000 for 9000
+ 9816 strings out of 493485
+ 144216 string characters out of 3143526
+ 280343 words of memory out of 3000000
+ 12700 multiletter control sequences out of 15000+200000
+ 62434 words of font info for 136 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
  51i,11n,37p,1688b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1264,10 +1269,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (24 pages, 2264474 bytes).
+Output written on full_paper.pdf (24 pages, 2265949 bytes).
 PDF statistics:
- 990 PDF objects out of 1000 (max. 8388607)
- 922 compressed objects within 10 object streams
+ 988 PDF objects out of 1000 (max. 8388607)
+ 920 compressed objects within 10 object streams
  129 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
