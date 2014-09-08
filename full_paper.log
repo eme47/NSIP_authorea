@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  8 SEP 2014 11:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  8 SEP 2014 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,7 +798,7 @@ marizes the relevant background
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 53--75
+Underfull \hbox (badness 1596) in paragraph at lines 51--75
 \OT1/ptm/m/n/12 phylum-level sequence annotations for all three studies but onl
 y the DNA-SIP data had more
  []
@@ -843,7 +843,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 93.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 123.
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
@@ -880,13 +880,13 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [9]
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
@@ -997,27 +997,27 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 1803) in paragraph at lines 232--238
+Underfull \hbox (badness 1803) in paragraph at lines 234--240
  \OT1/ptm/m/it/12 5.6.8 Differential abundance in environmental samples[][] \OT
 1/ptm/m/n/12 Significance of OTU proportion mean
  []
 
-) (./full_paper.bbl
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[12]
+[12]) (./full_paper.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 13.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ± in font ptmr7t!
-
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [13]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ∂ in font ptmr7t!
 
@@ -1064,6 +1064,10 @@ n input line 7.
 (pdftex.def)             Requested size: 252.0pt x 453.86874pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 <figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=820, 301
 7.2725pt x 1212.53pt>
@@ -1179,14 +1183,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[16 <./figures/study_phylum_dist/study_phylum_dist.png>]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[17 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]
+[17 <./figures/study_phylum_dist/study_phylum_dist.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1200,22 +1204,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[19 <./figures/l2fc1/l2fc_stacked_w_inset.png>]
+[19 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[20 <./figures/scatter_heavy_topN2/scatter_heavy_topN.png>]
+[20 <./figures/l2fc1/l2fc_stacked_w_inset.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[21 <./figures/clost.tree/clost_tree.png (PNG copy)>]
+[21 <./figures/scatter_heavy_topN2/scatter_heavy_topN.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[22 <./figures/rspndr_dist/rspndr_dist.png> <./figures/het_cyano_temp/het_cyano
+[22 <./figures/clost.tree/clost_tree.png (PNG copy)>]
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[23 <./figures/rspndr_dist/rspndr_dist.png> <./figures/het_cyano_temp/het_cyano
 _temp.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1223,11 +1234,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[23 <./figures/het_cyano_steven2013/het_cyano_steven2013.png>]
+[24 <./figures/het_cyano_steven2013/het_cyano_steven2013.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[24 <./figures/rarefacation_curves1/raref_and_boxplot.png> <./figures/het_spars
+[25 <./figures/rarefacation_curves1/raref_and_boxplot.png> <./figures/het_spars
 ity/het_sparsity.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
@@ -1235,7 +1246,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 00678E3F2F5260B6ACDAD58530E09E6B;3347.
+(rerunfilecheck)             Checksum: 5651E54EF8706A9E87FC74DF8E70D16E;3344.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1244,13 +1255,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9816 strings out of 493485
- 144216 string characters out of 3143526
- 280331 words of memory out of 3000000
+ 9817 strings out of 493485
+ 144223 string characters out of 3143526
+ 281126 words of memory out of 3000000
  12700 multiletter control sequences out of 15000+200000
  62434 words of font info for 136 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,11n,37p,1688b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,11n,37p,1133b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1266,10 +1277,10 @@ f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (24 pages, 2265855 bytes).
+Output written on full_paper.pdf (25 pages, 2266238 bytes).
 PDF statistics:
- 988 PDF objects out of 1000 (max. 8388607)
- 920 compressed objects within 10 object streams
- 129 named destinations out of 1000 (max. 500000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 130 named destinations out of 1000 (max. 500000)
  392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
