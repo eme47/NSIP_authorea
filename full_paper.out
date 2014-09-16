@@ -1,39 +1,38 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 2
 \BOOKMARK [1][-]{section.3}{Results}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Summary of Environmental Studies}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Comparison of sequence collections at "study"-level}{section.3}% 5
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Comparisons of OTU content:}{subsection.3.2}% 6
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Comparisons of Taxonomic Content:}{subsection.3.2}% 7
-\BOOKMARK [2][-]{subsection.3.3}{Ordination of CsCl gradient fraction SSU rRNA libraries}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.4}{Identities of possible 15N incorporators}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.5}{Distribution of BSC Diazotrophs in Environmental Samples}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.5.1}{Clostridiacea:}{subsection.3.5}% 11
-\BOOKMARK [3][-]{subsubsection.3.5.2}{Proteobacteria:}{subsection.3.5}% 12
-\BOOKMARK [3][-]{subsubsection.3.5.3}{Other taxa:}{subsection.3.5}% 13
-\BOOKMARK [2][-]{subsection.3.6}{Richness estimates}{section.3}% 14
-\BOOKMARK [1][-]{section.4}{Discussion}{}% 15
-\BOOKMARK [2][-]{subsection.4.1}{Study-level differences}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.2}{Ordination of CsCl gradient fraction 16S libraries}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.3}{BSC diazotrophs identified in the study}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.4}{Sequencing depth}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.5}{Analysis of next-generation-sequencing DNA-SIP data}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.6}{Conclusion}{section.4}% 21
-\BOOKMARK [1][-]{section.5}{Materials and Methods}{}% 22
-\BOOKMARK [2][-]{subsection.5.1}{Field site and sample description}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.2}{Soil crust incubation}{section.5}% 24
-\BOOKMARK [2][-]{subsection.5.3}{DNA extraction}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.4}{DNA-SIP}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.5}{PCR, library normalization and DNA sequencing}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.6}{Data analysis}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.6.1}{Sequence quality control}{subsection.5.6}% 29
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Sequence clustering}{subsection.5.6}% 30
-\BOOKMARK [3][-]{subsubsection.5.6.3}{Merging data from this study, GarciaPichel2013, and Steven2013}{subsection.5.6}% 31
-\BOOKMARK [3][-]{subsubsection.5.6.4}{Phylogenetic tree}{subsection.5.6}% 32
-\BOOKMARK [4][-]{section*.1}{Placement of short sequences into backbone phylogeny}{subsubsection.5.6.4}% 33
-\BOOKMARK [3][-]{subsubsection.5.6.5}{BLAST searches}{subsection.5.6}% 34
-\BOOKMARK [3][-]{subsubsection.5.6.6}{Identifying OTUs that incorporated 15N into their DNA}{subsection.5.6}% 35
-\BOOKMARK [3][-]{subsubsection.5.6.7}{Ordination}{subsection.5.6}% 36
-\BOOKMARK [3][-]{subsubsection.5.6.8}{Differential abundance in environmental samples}{subsection.5.6}% 37
-\BOOKMARK [2][-]{subsection.5.7}{Richness analyses}{section.5}% 38
-\BOOKMARK [1][-]{section.6}{Figures and long tables}{}% 39
+\BOOKMARK [2][-]{subsection.3.1}{Comparison of sequence collections at "study"-level}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Comparisons of OTU content:}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Comparisons of Taxonomic Content:}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Ordination of CsCl gradient fraction SSU rRNA libraries}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Identities of possible 15N incorporators}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Distribution of BSC Diazotrophs in Environmental Samples}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Clostridiacea:}{subsection.3.4}% 10
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Proteobacteria:}{subsection.3.4}% 11
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Other taxa:}{subsection.3.4}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Richness estimates}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Study-level differences}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Ordination of CsCl gradient fraction 16S libraries}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{BSC diazotrophs identified in the study}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Sequencing depth}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{Analysis of next-generation-sequencing DNA-SIP data}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.6}{Conclusion}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Materials and Methods}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Field site and sample description}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Soil crust incubation}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.3}{DNA extraction}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.4}{DNA-SIP}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.5}{PCR, library normalization and DNA sequencing}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.6}{Data analysis}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Sequence quality control}{subsection.5.6}% 28
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Sequence clustering}{subsection.5.6}% 29
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Merging data from this study, GarciaPichel2013, and Steven2013}{subsection.5.6}% 30
+\BOOKMARK [3][-]{subsubsection.5.6.4}{Phylogenetic tree}{subsection.5.6}% 31
+\BOOKMARK [4][-]{section*.1}{Placement of short sequences into backbone phylogeny}{subsubsection.5.6.4}% 32
+\BOOKMARK [3][-]{subsubsection.5.6.5}{BLAST searches}{subsection.5.6}% 33
+\BOOKMARK [3][-]{subsubsection.5.6.6}{Identifying OTUs that incorporated 15N into their DNA}{subsection.5.6}% 34
+\BOOKMARK [3][-]{subsubsection.5.6.7}{Ordination}{subsection.5.6}% 35
+\BOOKMARK [3][-]{subsubsection.5.6.8}{Differential abundance in environmental samples}{subsection.5.6}% 36
+\BOOKMARK [2][-]{subsection.5.7}{Richness analyses}{section.5}% 37
+\BOOKMARK [1][-]{section.6}{Figures and long tables}{}% 38

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  16 SEP 2014 12:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  16 SEP 2014 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,7 +714,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<./logo1.jpg, id=160, 30.9155pt x 29.3095pt>
+<./logo1.jpg, id=156, 30.9155pt x 29.3095pt>
 File: ./logo1.jpg Graphic file (type jpg)
  <use ./logo1.jpg>
 Package pdftex.def Info: ./logo1.jpg used on input line 13.
@@ -754,107 +754,63 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.5> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-[]|\OT1/ptm/m/n/12 Samples from ``light'', ``dark''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-\OT1/ptm/m/n/12 and ``lichen'' BSC across a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-\OT1/ptm/m/n/12 wide geographic range in the
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 19--21
-\OT1/ptm/m/n/12 southwestern United States and
- []
-
-
-Underfull \hbox (badness 2626) in paragraph at lines 19--21
-\OT1/ptm/m/n/12 a site mean annual temperature
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-[]|\OT1/ptm/m/n/12 Samples from three different
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 23--25
-\OT1/ptm/m/n/12 soil types, ``sand'', ``shale'' and
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 3--29
-\OT1/ptm/m/n/12 environmental context for the DNA-SIP findings. Table []1[] sum
-marizes the relevant background
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 49--71
+Underfull \hbox (badness 1596) in paragraph at lines 18--40
 \OT1/ptm/m/n/12 phylum-level sequence annotations for all three studies but onl
 y the DNA-SIP data had more
  []
+
+LaTeX Font Info:    Calculating math sizes for size <11.5> on input line 58.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <11.5> not available
+(Font)              size <12> substituted on input line 58.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.5> not available
+(Font)              size <12> substituted on input line 58.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <11.5> not available
+(Font)              size <12> substituted on input line 58.
+
+
+LaTeX Font Warning: Font shape `U/lasy/b/n' in size <11.5> not available
+(Font)              size <12> substituted on input line 58.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8.04996> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5.75> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 58.
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [3]
-LaTeX Font Info:    Calculating math sizes for size <11.5> on input line 89.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 89.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.5> not available
-(Font)              size <12> substituted on input line 89.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 89.
-
-
-LaTeX Font Warning: Font shape `U/lasy/b/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 89.
-
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8.04996> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5.75> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 89.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 118.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 87.
 
-Overfull \vbox (2.0245pt too high) has occurred while \output is active []
-
-
-[4]
-Underfull \hbox (badness 1946) in paragraph at lines 151--163
- \OT1/ptm/m/it/12 3.5.3 \OT1/ptm/b/it/12 Other taxa:[][] \OT1/ptm/m/n/12 Two po
+Underfull \hbox (badness 1946) in paragraph at lines 120--132
+ \OT1/ptm/m/it/12 3.4.3 \OT1/ptm/b/it/12 Other taxa:[][] \OT1/ptm/m/n/12 Two po
 tentially diazotroph OTUs were found in an extensive number of
  []
 
 ) (./Discussion.tex
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[4]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -865,6 +821,9 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 86.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
@@ -897,6 +856,9 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [8]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\begingroup' on input line 134.
@@ -982,11 +944,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
 
-
-Overfull \vbox (2.0245pt too high) has occurred while \output is active []
-
-
-[10]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -994,6 +951,10 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[10]
 Underfull \hbox (badness 1803) in paragraph at lines 231--237
  \OT1/ptm/m/it/12 5.6.8 Differential abundance in environmental samples[][] \OT
 1/ptm/m/n/12 Significance of OTU proportion mean
@@ -1010,6 +971,8 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [11]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ∂ in font ptmr7t!
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
@@ -1021,10 +984,7 @@ Missing character: There is no ∂ in font ptmr7t!
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[13]
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ∂ in font ptmr7t!
-) (./figures.tex (./LTP_table.tex
+[13]) (./figures.tex (./LTP_table.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
 
 
@@ -1048,7 +1008,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
 )
-<figures/study_phylum_dist/study_phylum_dist.png, id=725, 1100.11pt x 1981.4025
+<figures/study_phylum_dist/study_phylum_dist.png, id=717, 1100.11pt x 1981.4025
 pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1062,7 +1022,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=726, 297
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=718, 297
 5.115pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
@@ -1075,7 +1035,7 @@ w_inset.png used on input line 14.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/l2fc1/l2fc_stacked_w_inset.png, id=728, 2288.55pt x 2921.91624pt>
+<figures/l2fc1/l2fc_stacked_w_inset.png, id=720, 2288.55pt x 2921.91624pt>
 File: figures/l2fc1/l2fc_stacked_w_inset.png Graphic file (type png)
 
 <use figures/l2fc1/l2fc_stacked_w_inset.png>
@@ -1087,7 +1047,7 @@ ine 21.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=729, 3447.88126pt x 170
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=721, 3447.88126pt x 170
 1.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1099,7 +1059,7 @@ d on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/clost.tree/clost_tree.png, id=731, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=723, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1113,7 +1073,7 @@ LaTeX Warning: Float too large for page by 23.97856pt on input line 38.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/rspndr_dist/rspndr_dist.png, id=734, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=726, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1124,7 +1084,7 @@ Package pdftex.def Info: figures/rspndr_dist/rspndr_dist.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_cyano_temp/het_cyano_temp.png, id=743, 2304.61pt x 1387.1825pt>
+<figures/het_cyano_temp/het_cyano_temp.png, id=735, 2304.61pt x 1387.1825pt>
 File: figures/het_cyano_temp/het_cyano_temp.png Graphic file (type png)
 
 <use figures/het_cyano_temp/het_cyano_temp.png>
@@ -1136,7 +1096,7 @@ t line 49.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=748, 2304.61pt x 147
+<figures/het_cyano_steven2013/het_cyano_steven2013.png, id=740, 2304.61pt x 147
 4.50874pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.png Graphic file (type 
 png)
@@ -1149,7 +1109,7 @@ used on input line 56.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=753, 2863.69875pt x 170
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=745, 2863.69875pt x 170
 1.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1161,7 +1121,7 @@ d on input line 63.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/het_sparsity/het_sparsity.png, id=764, 1790.69pt x 1379.1525pt>
+<figures/het_sparsity/het_sparsity.png, id=756, 1790.69pt x 1379.1525pt>
 File: figures/het_sparsity/het_sparsity.png Graphic file (type png)
 
 <use figures/het_sparsity/het_sparsity.png>
@@ -1239,7 +1199,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 63A6EAF89095EC68C1B6D58F10B86C79;3063.
+(rerunfilecheck)             Checksum: BB50A957D64486DCD9200CE227784306;2981.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1248,13 +1208,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11.
  ) 
 Here is how much of TeX's memory you used:
- 9805 strings out of 493485
- 144102 string characters out of 3143526
- 297102 words of memory out of 3000000
- 12695 multiletter control sequences out of 15000+200000
+ 9801 strings out of 493485
+ 144044 string characters out of 3143526
+ 288176 words of memory out of 3000000
+ 12693 multiletter control sequences out of 15000+200000
  61182 words of font info for 135 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,11n,37p,1475b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,10n,37p,1475b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1271,10 +1231,10 @@ urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (23 pages, 2279663 bytes).
+Output written on full_paper.pdf (23 pages, 2278415 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 844 compressed objects within 9 object streams
- 124 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 832 compressed objects within 9 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
