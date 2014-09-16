@@ -1,4 +1,57 @@
 \section{Results}
+\subsection{Ordination of CsCl gradient fraction SSU rRNA libraries} 
+BSC were incubated for 4 days in the presence or absence of $^{15}$N$_{2}$ and
+DNA was extracted for DNA-SIP at 2 and 4 days. Fractionation of CsCl gradients
+permitted separation of DNA on the basis of buoyant density. Ordination of
+Bray-Curtis \citep{Bray_1957} distances beteen SSU-rRNA amplicon sequence
+collections from gradient fractions reveals that labeled gradient fraction
+(i.e. gradient fractions of DNA from $^{15}$N$_{2}$ incubations) sequence
+collections diverge from control (i.e. DNA from incubations without
+$^{15}$N$_{2}$) at the ``heavy`` of the CsCl gradients
+(Figure~\ref{fig:ordination}). Although the density position of gradient
+fractions from different gradients do not match perfectly, fraction pairs from
+corresponding control versus labeled gradients can be constructed by pairing
+control gradient fractions with their closest density neighbors/fractions from
+corresponding labeled gradients.  If a gradient fraction did not have a mate
+within a density difference of 0.003 g/mL it remained unpaired. Bray-Curtis
+distance between the fraction pairs is positively correlated to the density of
+the labeled fraction (p-value: 0.00052, r$^{2}$: 0.3315) (inset
+Figure~\ref{fig:ordination}). Additionally, differences among label/control groups
+with heavy fractions are statistically significant by the Adonis test (p-value:
+0.001, r$^{2}$: 0.136) \citep{Anderson_2001}. The first principal axis appears
+to be correlated with fraction density (Figure~\ref{fig:ordination}) and the
+Adonis test p-value for density versus pairwise Bray-Curtis distances with all
+CsCl fraction libraries is 0.001 (r$^{2}$ 0.117).
+
+\subsection{Identities of OTUs responsive to $^{15}$N$_{2}$} 
+A statistically significant increase in OTU abundance in heavy fractions of
+$^{15}$N$_{2}$ labeled samples relative to corresponding gradient fractions
+from controls provides evidence for OTUs that have incorporated $^{15}$N into
+their DNA. Specifically, we compared OTU proportion means between labeled and
+control samples from heavy gradient fractions using statistics developed to
+find differentially expressed genes with RNASeq data (CITE McMurdie and
+DESeq2). p-values were adjusted by the BH method CITE and we used a false
+discovery rate (FDR) cutoff of 0.10 (typical FDR threshold in gene expression
+data analysis, CITE DESeq2) to reject the null hypothesis that labeled versus
+control proportion mean differences were below a chosen threshold (see
+methods). With the above methods 38 OTUs had labeled versus control proportion
+mean difference p-values below 0.10 for one or both incubation days. These OTUs
+likely to incorporated $^{15}$N into DNA ($^{15}$N$_{2}$ ``responders''). Of
+these 38, 26 are annotated as \textit{Firmicutes}, 9 as
+\textit{Proteobacteria}, 2 as \textit{Acidobacteria} and 1 as
+\textit{Actinobacteria} (Figure~\ref{fig:l2fc}). If the OTUs are ranked by
+descending, moderated proportion mean labeled:control ratios, the top 10 ratios
+(i.e. the 10 OTUs that were most enriched in the labeled gradients considering
+only heavy fractions) are either \textit{Firmicutes} (6 OTUs) or
+\textit{Proteobacteria} (4 OTUs) (Figure~\ref{fig:scatter_heavy}).
+\textit{Proteobacteria} OTU centroid sequences for the top 10 responders all
+share high identity ($>$98.48\% identity, Table~\ref{tab:LTP_blast}) with
+cultivars from genera known to possess diazotrophs including
+\textit{Klebsiella}, \textit{Shigella}, \textit{Acinetobacter}, and
+\textit{Ideonella}. None of the \textit{Firmicutes} OTUs in the top 10
+responders share greater than 97\% sequence identity with sequences in the LTP
+database (release 115) (see Table~\ref{tab:LTP_blast}).
+
 \subsection{Comparison of sequence collections at "study"-level}
 \subsubsection{Comparisons of OTU content:} There were 3,079 OTUs (209,354
 total sequences after quality control) in the DNA-SIP data, 3,203 OTUs (129,033
@@ -38,51 +91,6 @@ respectively, of \textit{Cyanobacteria} sequences are annotated as belonging to
 "Subsection
 IV".  
 
-\subsection{Ordination of CsCl gradient fraction SSU rRNA libraries} Ordination
-of Bray-Curtis \citep{Bray_1957} distances between CsCl gradient fraction
-sequence libraries with principal coordinates analysis shows the labeled
-gradient fraction libraries diverge from control at the ``heavy`` of the CsCl
-gradients (Figure~\ref{fig:ordination}). When the labeled and control CsCl
-gradient fraction 16S rRNA gene libraries are paired such that each pair
-contains a control fraction and labeled fraction from the same incubation day
-with a density difference below 0.003 g/mL, the Bray-Curtis distance between
-the fraction pair is positively correlated to the density of the labeled
-fraction (p-value: 0.00052, r$^{2}$: 0.3315) (inset
-Figure~\ref{fig:ordination}).  Additionally, the label/control category for
-heavy fractions is statistically significant by the Adonis test (p-value:
-0.001, r$^{2}$: 0.136) \citep{Anderson_2001}. The first principal axis appears
-to be correlated with fraction density (Figure~\ref{fig:ordination}) and the
-Adonis test p-value for density versus pairwise Bray-Curtis distances with all
-CsCl fraction libraries is 0.001 (r$^{2}$ 0.117).
-
-\subsection{Identities of possible $^{15}$N incorporators} The OTUs that have
-enriched proportion means in labeled gradient heavy fractions versus control
-gradient heavy fractions are those that have incorporated the stable isotope
-tracer into their DNA. We found 38 OTUs that appeared to incorporate $^{15}$N
-into DNA (or ``responders''). Of these 38, 26 are annotated as
-\textit{Firmicutes}, 9 as \textit{Proteobacteria}, 2 as
-\textit{Acidobacteria} and 1 as \textit{Actinobacteria} (The inset of
-Figure~\ref{fig:l2fc} summarizes the Family level taxonomic profile of stable
-isotope responders).  Figure~\ref{fig:l2fc} summarizes the ratio of
-proportion means for each OTU where means are calculated from proportions in
-heavy fractions within labeled or controlled gradients and the ratio is
-labeled over control (see methods). If the OTUs are ranked by descending,
-moderated proportion mean labeled:control ratios, the top 10 ratios (i.e. the
-10 OTUs that were most enriched in the labeled gradients considering only
-heavy fractions) are either \textit{Firmicutes} (6 OTUs) or
-\textit{Proteobacteria} (4 OTUs).  Figure~\ref{fig:scatter_heavy} shows the
-relative abundance values for the top 10 OTUs in heavy fractions of labeled
-and control gradients.  Table~\ref{tab:LTP_blast} summarizes the results from
-BLAST searching the centroid sequences for these top 10 OTUs against the LTP
-database \textit{Proteobacteria} OTU centroid sequences for the top 10
-responders all share high identity ($>$98.48\% identity,
-Table~\ref{tab:LTP_blast}) with cultivars from genera known to possess
-diazotrophs including \textit{Klebsiella}, \textit{Shigella},
-\textit{Acinetobacter}, and \textit{Ideonella}. None of the
-\textit{Firmicutes} OTUs in the top 10 responders share greater than 97\%
-sequence identity with sequences in the LTP database (release 115) (see
-Table~\ref{tab:LTP_blast}).
-
 \subsection{Distribution of BSC Diazotrophs in Environmental Samples}
 \subsubsection{\textbf{\textit{Clostridiacea}:}} Five of the 6
 \textit{Firmicutes} in the top 10 responder OTUs (above) belong in the
@@ -93,31 +101,23 @@ proteoclasticus}, BLAST \%ID 96.94, Accession X90488).  OTU.108 was found in
 two samples both characterized as "light" crust. One other
 \textit{Clostridiaceae} OTU with a proportion mean ratio (labeled:control)
 p-value less than 0.10 but outside the top 10 responders was found in the
-\citet{Garcia_Pichel_2013} data and also in a "light" crust sample. None of
+\citet{Garcia_Pichel_2013} data (a "light" crust sample). None of
 the strongly responding \textit{Clostridiacea} were found in the sequences
-provided by \citet{Steven_2013}.
+provided by \citet{Steven_2013}. \textit{Clostridiaceae} $^{15}$N-responder OTU
+centroid 16S sequences are generally more closely related to environmental than
+cultivar 16S gene sequences.   
 
-Figure~\ref{fig:clost_tree} depicts the phylogenetic breadth of
-\textit{Clostridiaceae} $^{15}$N responder OTUs from this experiment. The
-phylogenetic tree was constructed from near full-length reference sequences,
-and edge width demonstrates the placements of short OTU centroid sequences in
-the backbone tree (see methods for description of placement algorithm and
-selection criteria for reference sequences). As shown,
-\textit{Clostridiaceae} $^{15}$N-responder OTU centroid 16S sequences are
-generally more closely related to environmental than cultivar 16S gene
-sequences.   
-
-\subsubsection{\textbf{\textit{Proteobacteria}:}} Only "OTU.342" (closest
+\subsubsection{\textbf{\textit{Proteobacteria}:}} One of the
+\textit{Proteobacteria} OTUs in the 10 most strongly responding OTUs was
+found in the \citet{Garcia_Pichel_2013} sequences (closest
 BLAST hit in LTP Release 115, BLAST \%ID 100, Accession ZD3440,
-\textit{Acinetobacter johnsonii}) of the \textit{Proteobacteria} OTUs in the
-top 10 most strongly responding OTUs was found in the
-\citet{Garcia_Pichel_2013} sequences. None of the strongly responding
+\textit{Acinetobacter johnsonii}). None of the strongly responding
 \textit{Protebacteria} OTUs were found in the \citet{Steven_2013} sequences.
 There were 133 responder OTU-sample occurrences (responder OTU was found in a
 sample library) in the \citet{Steven_2013} data.  83 were in "below crust"
 samples, 50 in BSC samples.
 
-\subsubsection{\textbf{Other taxa:}} Two potentially diazotroph OTUs were found
+\subsubsection{\textbf{Other taxa:}} Two $^{15}$N-responsive OTUs were found
 in an extensive number of environmental samples (61 of 65 samples from the
 combined data sets of \citet{Garcia_Pichel_2013} and \citet{Steven_2013}).
 Both OTUs were annotated as \textit{Acidobacteria} but shared little sequence
@@ -181,9 +181,3 @@ occurrences distributed into the most relevant sample classes of each study.
 %abundant in the crust samples than below crust samples
 %(Figure~\ref{fig:het_steven}) (maximum p-value for any OTU: 1.96x10$^{-4}$).
 
-\subsection{Richness estimates}
-Figure~\ref{fig:rarefaction} (inset) summarizes the fraction of observed OTUs
-over total OTUs as estimated by CatchAll for each sample 16S library.
-Rarefaction curves for each sample are shown in Figure~\ref{fig:rarefaction}.
-Qualitatively, rarefaction curves show below crust samples to be more rich than
-BSC samples in the \citet{Steven_2013} data.
