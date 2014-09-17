@@ -1,35 +1,34 @@
 \section{Materials and Methods}
-\subsection{Field site and sample description}
-Samples were taken from Green Butte, Arizona as previously described (site CP3,
-\citet{BERALDI_CAMPESI_2009}). All samples were from light crusts as described
-by \cite{15643930}.
-
-\subsection{Soil crust incubation}
+\subsection{BSC sampling and incubation conditions}
 Light crust samples (37.5 cm$^{2}$, average mass 35 g) were incubated in sealed
 chambers under controlled atmosphere and in the light for 4 days. Crusts were
 dry prior to time zero and were wetted at initiation of experiment. Treatments
 included control air (unenriched headspace) and enriched air (\textgreater98\%
 atom $^{15}$N$_{2}$) headspace. Samples were taken at 2 days and 4 days
 incubation.  Acetylene reduction rates were measured daily. DNA was extracted
-from 1 g of crust.
-
+from 1 g of crust.  Samples were taken from Green Butte, Arizona as previously
+described (site CP3, \citet{BERALDI_CAMPESI_2009}). All samples were from light
+crusts as described by \cite{15643930}.
 \subsection{DNA extraction}
 DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit (following manufacturer’s protocol, but substituting a 2 minute bead beating for the vortexing step), and then gel purified. Extracts were quantified using PicoGreen nucleic acid quantification dyes (Molecular Probes). 
 \subsection{DNA-SIP}
- Gradient density centrifugation of DNA was undertaken in 6 mL polyallomer
+ Gradient density centrifugation of DNA was undertaken in 4.7 mL polyallomer
  centrifuge tubes in a TLA-110 fixed angle rotor (both Beckman Coulter) in CsCl
  gradients with an average density of 1.725 g/mL.  Average density for all
  prepared gradients was checked with an AR200 refractometer before runs.
  Between 2.5-5 $\mu$g of DNA extract was added to the CsCl solution, and
  gradients were run under conditions of 20°C for 67 hours at 55,000 rpm
- (Lueders et al., 2004). Centrifuged gradients were fractionated from bottom to
- top in 36 equal fractions of 100 $\mu$L, using a displacement technique
- similar to Manefield et al. (2002). The density of each fraction was
- determined using a refractometer. DNA in each fraction was desalted through
- four washes with 300 $\mu$L TE per fraction.  \subsection{PCR, library
- normalization and DNA sequencing} Barcoded PCR of bacterial and archaeal 16S
+ (Lueders et al., 2004) CITE. Centrifuged gradients were fractionated from bottom to
+ top in 36 equal fractions of 100 $\mu$L, using a by syringe pump as described
+ Manefield et al. (2002). The density of each fraction was determined using
+ using an AR200 refractometer modified to accomidate 5ul
+ samples CITE. DNA in each fraction was desalted through four washes
+ with 300 $\mu$L TE per fraction.  
+ \subsection{PCR, library normalization and DNA sequencing} 
+ Barcoded PCR of bacterial and archaeal 16S
  rRNA genes, in preparation for 454 Pyrosequencing, was carried out using
- primer set 515F/806R \citep{21349862}.  The primer 806R contained an 8 bp
+ primer set 515F/806R \citep{21349862} (primers purchased from Integrated DNA
+ Technologies).  The primer 806R contained an 8 bp
  barcode sequence, a "TC" linker, and a Roche 454 B sequencing adaptor, while
  the primer 515F contained the Roche 454 A sequencing adapter. Each 25 $\mu$L
  reaction contained 1x PCR Gold Buffer (Roche), 2.5 mM MgCl$_{2}$, 200 $\mu$M
@@ -46,7 +45,6 @@ DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit (fo
  and pooled together in equimolar amounts. Samples were sent to the
  Environmental Genomics Core Facility at the University of South Carolina (now
  Selah Genomics) to be run on a Roche FLX 454 pyrosequencing machine. 
-
 \subsection{Data analysis} 
 \subsubsection{Sequence quality control} Sequences were initially screened by
 maximum expected errors at a specific read length threshold \citep{23955772}
@@ -73,63 +71,24 @@ Sequences were distributed into OTUs using the UParse methodology
 \citep{23955772}. Specifically, cluster seeds were identified using USearch with
 a collection of non-redundant reads sorted by count as input. The sequence
 identity threshold for establishing a new OTU centroid was 97\%. After initial
-cluster centroid selection, select 16S rRNA sequences trimmed to the same 16S
-position as the other centroids from \citet{Yeager} were added to the centroid
-collection. Specifically, \citet{Yeager} Colorado Plateau or Moab, Utah
-sequences were added which included the 16S sequences for \textit{Calothrix}
-MCC-3A, \textit{Nostoc commune} MCT-1, \textit{Nostoc commune} MFG-1,
-\textit{Scytonema hyalinum} DC-A, \textit{Scytonema hyalinum} FGP-7A,
-\textit{Spirirestis rafaelensis} LQ-10. Centroid sequences that matched
+cluster centroid selection, select 16S rRNA gene sequences trimmed to the same
+alignment positions as the other centroids from \citet{Yeager} were added to
+the centroid collection. Specifically, \citet{Yeager} Colorado Plateau or Moab,
+Utah sequences were added which included the 16S sequences for
+\textit{Calothrix} MCC-3A (accession DQ531700.1), \textit{Nostoc commune}
+MCT-1 (accession DQ531903), \textit{Nostoc commune} MFG-1 (accession
+DQ531699.1), \textit{Scytonema hyalinum} DC-A (accession DQ531701.1),
+\textit{Scytonema hyalinum} FGP-7A (accession DQ531697.1), \textit{Spirirestis
+rafaelensis} LQ-10 (accession DQ531696.1).  Centroid sequences that matched
 selected \citet{Yeager} sequences with greater than to 97\% sequence identity
 were subsequently removed from the centroid collection. With USearch/UParse,
-potential chimeras are identified during OTU centroid selection
-and are not allowed to become cluster centroids effectively removing chimeras
-from the read pool. All quality controlled reads were then mapped to cluster
-centroids at an identity threshold of 97\% again using USearch. 95.6\% of
-quality controlled reads could be mapped to centroids. Unmapped reads do not
-count towards sample counts and are essentially removed from downstream
-analyses. The USearch software version for cluster generation was 7.0.1090.
-
-\begin{table}
-
-\textbf{
-\refstepcounter{table}
-\label{table:yeager_2006} 
-Table \arabic{table}. }{Chosen 16S sequences for strains in \citet{Yeager} included as OTU centroids}
-
-{\begin{tabular}{ l l }
-\toprule
-\textbf{Accession of representative 16S rRNA seqeunce} & \textbf{Species Name} \\ \midrule 
-DQ531701.1 & \textit{Scytonema hyalinum} DC-A \\ \midrule 
-DQ531697.1 & \textit{Scytonema hyalinum} FGP-7A \\ \midrule
-DQ531696.1 & \textit{Spirirestis rafaelensis} LQ-10 \\ \midrule
-DQ531703.1 & \textit{Nostoc commune} MCT-1 \\ \midrule
-DQ531699.1 & \textit{Nostoc commune} MFG-1 \\ \midrule 
-DQ531700.1 & \textit{Calothrix} MCC-3A  \\ 
-\bottomrule
-\end{tabular}}{} 
-
-\end{table}
-
-%\begin{table}
-%\begin{center}
-%\begin{tabular}{ l l }
-%\textbf{Accession of representative 16S rRNA seqeunce} &
-%\textbf{Species Name} \\ 
-%\hline
-%DQ531701.1 & Scytonema hyalinum DC-A \\
-%DQ531697.1 & Scytonema hyalinum FGP-7A \\
-%DQ531696.1 & Spirirestis rafaelensis LQ-10 \\
-%DQ531703.1 & Nostoc commune MCT-1 \\
-%DQ531699.1 & Nostoc commune MFG-1 \\
-%DQ531700.1 & Calothrix MCC-3A  \\
-%\hline
-%\end{tabular}
-%\end{center}
-%\caption{Chosen 16S sequences for strains in \citet{Yeager} included as OTU centroids}
-%\label{table:yeager_2006}
-%\end{table}
-
+potential chimeras are identified during OTU centroid selection and are not
+allowed to become cluster centroids effectively removing chimeras from the read
+pool. All quality controlled reads were then mapped to cluster centroids at an
+identity threshold of 97\% again using USearch. 95.6\% of quality controlled
+reads could be mapped to centroids. Unmapped reads do not count towards sample
+counts and are essentially removed from downstream analyses. The USearch
+software version for cluster generation was 7.0.1090.
 \subsubsection{Merging data from this study, \citet{Garcia_Pichel_2013}, and
 \citet{Steven_2013}} As only sequences without corresponding quality scores
 were publicly available from \citet{Garcia_Pichel_2013} and
@@ -138,7 +97,6 @@ if they covered the expected region of the 16S gene (described above). All data
 (this study, \citet{Garcia_Pichel_2013} and \citet{Steven_2013}) were included
 as input to USearch for OTU centroid selection and subsequent mapping to OTU
 centroids. 
-
 \subsubsection{Phylogenetic tree}
 The alignment for the "\textit{Clostridiaceae}" phylogeny was created using
 SSU-Align which is based on Infernal \citep{24008419, 19307242}. Columns in the
