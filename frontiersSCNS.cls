@@ -227,12 +227,12 @@
 % Page styles
 \def\ps@headings
   {%
-  \def\@oddfoot{\vbox to 12.5\p@{\rule{\textwidth}{0.5\p@}\vss
-        \hbox to \textwidth{\helveticabold\small {Frontiers in \journal}\hfill \thepage}%
-        }}%
-  \def\@evenfoot{\vbox to 12.5\p@{\rule{\textwidth}{0.5\p@}\vss
-        \hbox to \textwidth{\helvetica\small {\color{red}This is a provisional file, not the final typeset article}\hfill\helveticabold\color{black}\thepage}%
-        }}%
+%  \def\@oddfoot{\vbox to 12.5\p@{\rule{\textwidth}{0.5\p@}\vss
+%        \hbox to \textwidth{\helveticabold\small {Frontiers in \journal}\hfill \thepage}%
+%        }}%
+%  \def\@evenfoot{\vbox to 12.5\p@{\rule{\textwidth}{0.5\p@}\vss
+%        \hbox to \textwidth{\helvetica\small {\color{red}This is a provisional file, not the final typeset article}\hfill\helveticabold\color{black}\thepage}%
+%        }}%
   \def\@evenhead{\vbox{\hbox to \textwidth{\fontsize{11}{10}\selectfont
         \helveticabold{\fontshape{it}\selectfont
         \strut\firstAuthorLast}\hfill\strut\rightmark}\vspace{6.5\p@}\rule{\textwidth}{0.5\p@}}}%
@@ -475,36 +475,36 @@
 \setlength{\aboveskipchk}{\z@}%
 
 \def\@maketitle{%
-  \let\footnote\thanks
-  \clearemptydoublepage
-    \checkoddpage\ifcpoddpage\setlength{\aboveskipchk}{-3pc}\else\setlength{\aboveskipchk}{-5pc}\fi%for checking oddpage or evenpage top skip%%
-  \vspace*{\aboveskipchk}%
-  \vspace{\dropfromtop}%
-  \hbox to \textwidth{%
-  {\helvetica\bfseries\fontsize{15}{12}\selectfont {\color{gray}Frontiers in \color{FrontiersColor}\journal}
-    \hfil
-    \if@appnotes APPLICATIONS NOTE\hfil\fi
-
-    }%
+%  \let\footnote\thanks
+%  \clearemptydoublepage
+%    \checkoddpage\ifcpoddpage\setlength{\aboveskipchk}{-3pc}\else\setlength{\aboveskipchk}{-5pc}\fi%for checking oddpage or evenpage top skip%%
+%  \vspace*{\aboveskipchk}%
+%  \vspace{\dropfromtop}%
+%  \hbox to \textwidth{%
+%  {\helvetica\bfseries\fontsize{15}{12}\selectfont {\color{gray}Frontiers in \color{FrontiersColor}\journal}
+%    \hfil
+%    \if@appnotes APPLICATIONS NOTE\hfil\fi
+%
+%    }%
 %\enskip
-
-\parbox[c]{15pc}{%
-
-    \hfil
-    \flushright
-    \fontsize{8}{10}\fontshape{it}\selectfont
-\helvetica \articleType \\
-        \helvetica \ \@pubyear
-        \mydate\today \\
-        \DOI
-        \hfill %Pages \thepagerange
-
-  }
-  \parbox[c]{2.5pc}{%
-    \helvetica
-    \hfil
-    \flushright  \includegraphics[width=2.5pc,angle=0]{./logo1.jpg}\\ \medskip
-  }}
+%
+%\parbox[c]{15pc}{%
+%
+%    \hfil
+%    \flushright
+%    \fontsize{8}{10}\fontshape{it}\selectfont
+%\helvetica \articleType \\
+%        \helvetica \ \@pubyear
+%        \mydate\today \\
+%        \DOI
+%        \hfill %Pages \thepagerange
+%
+%  }
+%  \parbox[c]{2.5pc}{%
+%    \helvetica
+%    \hfil
+%    \flushright  \includegraphics[width=2.5pc,angle=0]{./logo1.jpg}\\ \medskip
+%  }}
  \rule{\textwidth}{1\p@}\par%
   \helvetica
   \hbox to \textwidth{%
