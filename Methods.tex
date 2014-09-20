@@ -64,7 +64,7 @@ culled from the dataset. Finally, reads were aligned to the Silva reference
 alignment provided by the Mothur software package \citep{19801464} using the
 Mothur NAST aligner \citep{16845035}. All reads that did not appear to align to
 the expected amplicon region of the SSU rRNA gene were discarded. Quality
-control parameters removed 34716 of 258763 raw reads.
+control parameters removed 34,716 of 258,763 raw reads.
 
 \subsubsection{Sequence clustering}
 Sequences were distributed into OTUs using the UParse methodology
@@ -198,14 +198,6 @@ distance metric for ordination. The Phyloseq \citep{24699258} wrapper for Vegan
 \citep{vegan} (both R packages) was used to compute sample values along
 principal coordinate axes. GGplot2 \citep{ggplot2} was used to display sample
 points along the first and second principal axes.  
-
-\subsubsection{Differential abundance in environmental samples}
-Significance of OTU proportion mean differences with mean annual temperature
-(for \citet{Garcia_Pichel_2013} data) and sample type (``BSC'' or ``below crust''
-\citet{Steven_2013} data) was determined using the DESeq2 framework
-\citep{24699258, Love_2014}. A sparsity threshold of 0.40 was set to screen out
-sparse OTUs. No p-value correction was done for differential abundance in 
-environmental samples as only six OTUs were considered for any test.
 
 \subsection{Richness analyses} Rarefaction curves were created using
 bioinformatics modules in the PyCogent Python package \citep{Knight_2007}.
