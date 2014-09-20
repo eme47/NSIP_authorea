@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -96,6 +96,12 @@ Daniel~H. Buckley.
   129--147. American Society of Microbiology, jan 2011.
 \newblock \doi{10.1128/9781555816896.ch7}.
 \newblock URL \url{http://dx.doi.org/10.1128/9781555816896.ch7}.
+
+\bibitem[Buckley et~al.()Buckley, Huangyutitham, Hsu, and Nelson]{17369332}
+DH~Buckley, V~Huangyutitham, SF~Hsu, and TA~Nelson.
+\newblock {Stable isotope probing with 15N2 reveals novel noncultivated
+  diazotrophs in soil.}
+\newblock \emph{Appl Environ Microbiol}, 73:\penalty0 3196--204.
 
 \bibitem[Bunge(2010)]{BUNGE_2010}
 John Bunge.
