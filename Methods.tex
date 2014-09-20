@@ -16,14 +16,19 @@ DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit (fo
  centrifuge tubes in a TLA-110 fixed angle rotor (both Beckman Coulter) in CsCl
  gradients with an average density of 1.725 g/mL.  Average density for all
  prepared gradients was checked with an AR200 refractometer before runs.
- Between 2.5-5 $\mu$g of DNA extract was added to the CsCl solution, and
- gradients were run under conditions of 20°C for 67 hours at 55,000 rpm
- (Lueders et al., 2004) CITE. Centrifuged gradients were fractionated from bottom to
+ Between 2.5-5 $\mu$g of DNA extract was added to the CsCl solution 
+ (15mM Tris-HCl, pH 8; 15mM EDTA; 15mM KCl), and
+ gradients were run under conditions of 20°C for 67 hours at 55,000 rpm 
+ \citep{17369332}. Centrifuged gradients were fractionated from bottom to
  top in 36 equal fractions of 100 $\mu$L, using a by syringe pump as described
  Manefield et al. (2002). The density of each fraction was determined using
  using an AR200 refractometer modified to accomidate 5ul
- samples CITE. DNA in each fraction was desalted through four washes
- with 300 $\mu$L TE per fraction.  
+ samples \citep{17369332}. DNA in each fraction was desalted on a filter plate
+ (PALL, AcroPrep Advance 96 Filter Plate, Product Number 8035), using four
+ washes with 300$\mu$L TE per fraction. After each wash, the filter plate was spun
+ at 500 g for 10 minutes, with a final spin of 20 minutes. Fractions were
+ resuspended in 50 uL of TE buffer.
+
  \subsection{PCR, library normalization and DNA sequencing} 
  Barcoded PCR of bacterial and archaeal 16S
  rRNA genes, in preparation for 454 Pyrosequencing, was carried out using
@@ -34,17 +39,16 @@ DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit (fo
  reaction contained 1x PCR Gold Buffer (Roche), 2.5 mM MgCl$_{2}$, 200 $\mu$M
  of each of the four dNTPs (Promega), 0.5 mg/mL BSA (New England Biolabs), 0.3
  $\mu$M of each primers, 1.25 U of Amplitaq Gold (Roche), and 8 $\mu$L of
- template. Template for each sample was added at normalized amounts in an
- attempt to prevent chimera formation, and each sample was amplified in
- triplicate. Thermal cycling occurred with an initial denaturation step of 5
- minutes at 95°C, followed by 40 cycles of amplification (20s at 95°C, 20s at
- 53°C, 30s at 72°C), and a final extension step of 5 min at 72°C. Triplicate
- amplicons were pooled and purified using Agencourt AMPure PCR purification
- beads, following manufacturer’s protocol. Once cleaned, amplicons were
- quantified using PicoGreen nucleic acid quantification dyes (Molecular Probes)
- and pooled together in equimolar amounts. Samples were sent to the
- Environmental Genomics Core Facility at the University of South Carolina (now
- Selah Genomics) to be run on a Roche FLX 454 pyrosequencing machine. 
+ template. Each sample was amplified in triplicate. Thermal cycling occurred
+ with an initial denaturation step of 5 minutes at 95°C, followed by 40 cycles
+ of amplification (20s at 95°C, 20s at 53°C, 30s at 72°C), and a final
+ extension step of 5 min at 72°C. Triplicate amplicons were pooled and purified
+ using Agencourt AMPure PCR purification beads, following manufacturer’s
+ protocol. Once cleaned, amplicons were quantified using PicoGreen nucleic acid
+ quantification dyes (Molecular Probes) and pooled together in equimolar
+ amounts. Samples were sent to the Environmental Genomics Core Facility at the
+ University of South Carolina (now Selah Genomics) to be run on a Roche FLX 454
+ pyrosequencing machine. 
 \subsection{Data analysis} 
 \subsubsection{Sequence quality control} Sequences were initially screened by
 maximum expected errors at a specific read length threshold \citep{23955772}
@@ -74,7 +78,7 @@ identity threshold for establishing a new OTU centroid was 97\%. After initial
 cluster centroid selection, select 16S rRNA gene sequences trimmed to the same
 alignment positions as the other centroids from \citet{Yeager} were added to
 the centroid collection. Specifically, \citet{Yeager} Colorado Plateau or Moab,
-Utah sequences were added which included the 16S sequences for
+Utah sequences were added which included the 16S rRNA gene sequences for
 \textit{Calothrix} MCC-3A (accession DQ531700.1), \textit{Nostoc commune}
 MCT-1 (accession DQ531903), \textit{Nostoc commune} MFG-1 (accession
 DQ531699.1), \textit{Scytonema hyalinum} DC-A (accession DQ531701.1),
@@ -93,7 +97,7 @@ software version for cluster generation was 7.0.1090.
 \citet{Steven_2013}} As only sequences without corresponding quality scores
 were publicly available from \citet{Garcia_Pichel_2013} and
 \citet{Steven_2013}, these data sets were only quality screened by determining
-if they covered the expected region of the 16S gene (described above). All data
+if they covered the expected region of the 16S rRNA gene (described above). All data
 (this study, \citet{Garcia_Pichel_2013} and \citet{Steven_2013}) were included
 as input to USearch for OTU centroid selection and subsequent mapping to OTU
 centroids. 
