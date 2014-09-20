@@ -34,22 +34,22 @@ discovery rate (FDR) cutoff of 0.10 (typical FDR threshold in gene expression
 data analysis, \citep{Love_2014}) to reject the null hypothesis that labeled versus
 control proportion mean differences were below a chosen threshold (see
 methods). With the above methods 38 OTUs had labeled versus control proportion
-mean difference adjusted p-values below 0.10 for one or both incubation days. These OTUs
-likely incorporated $^{15}$N into DNA ($^{15}$N$_{2}$ ``responders''). Of
-these 38, 26 are annotated as \textit{Firmicutes}, 9 as
+mean difference adjusted p-values below 0.10 for one or both incubation days.
+These OTUs likely incorporated $^{15}$N into DNA ($^{15}$N$_{2}$
+``responders''). Of these 38, 26 are annotated as \textit{Firmicutes}, 9 as
 \textit{Proteobacteria}, 2 as \textit{Acidobacteria} and 1 as
-\textit{Actinobacteria} (Figure~\ref{fig:l2fc}). If the OTUs are ranked by
-descending, moderated proportion mean labeled:control ratios, the top 10 ratios
-(i.e. the 10 OTUs that were most enriched in the labeled gradients considering
-only heavy fractions) are either \textit{Firmicutes} (6 OTUs) or
-\textit{Proteobacteria} (4 OTUs) (Figure~\ref{fig:scatter_heavy}).
-\textit{Proteobacteria} OTU centroid sequences for the top 10 responders all
-share high identity ($>$98.48\% identity, Table~\ref{tab:LTP_blast}) with
-cultivars from genera known to possess diazotrophs including
-\textit{Klebsiella}, \textit{Shigella}, \textit{Acinetobacter}, and
-\textit{Ideonella}. None of the \textit{Firmicutes} OTUs in the top 10
-responders share greater than 97\% sequence identity with sequences in the LTP
-database (release 115) (see Table~\ref{tab:LTP_blast}).
+\textit{Actinobacteria} (Figure~\ref{fig:l2fc}, Figure~\ref{fig:trees}). If the
+OTUs are ranked by descending, moderated proportion mean labeled:control
+ratios, the top 10 ratios (i.e. the 10 OTUs that were most enriched in the
+labeled gradients considering only heavy fractions) are either
+\textit{Firmicutes} (6 OTUs) or \textit{Proteobacteria} (4 OTUs)
+(Figure~\ref{fig:scatter_heavy}).  \textit{Proteobacteria} OTU centroid
+sequences for the top 10 responders all share high identity ($>$98.48\%
+identity, Table~\ref{tab:LTP_blast}) with cultivars from genera known to
+possess diazotrophs including \textit{Klebsiella}, \textit{Shigella},
+\textit{Acinetobacter}, and \textit{Ideonella}. None of the \textit{Firmicutes}
+OTUs in the top 10 responders share greater than 97\% sequence identity with
+sequences in the LTP database (release 115) (see Table~\ref{tab:LTP_blast}).
 
 If we run a second test of differential OTU abundance with the null hypothesis
 that OTU abundance is greater (above a threshold) in labeled, heavy gradient
@@ -58,7 +58,6 @@ did not respond the the label. There were 58 and 70 ``non-responders'' at days
 2 and 4, respectively. 208 and 233 of 2,127 and 2,160 OTUs passed our sparsity
 threshold (OTUs had to have counts in at least 62.5\% of heavy fractions) for
 days 2 and 4, respectively..
-
 
 \subsection{Comparison of sequence collections at "study"-level}
 \subsubsection{Comparisons of OTU content:} There were 3,079 OTUs (209,354
@@ -109,11 +108,11 @@ proteoclasticus}, BLAST \%ID 96.94, Accession X90488).  OTU.108 was found in
 two samples both characterized as "light" crust. One other
 \textit{Clostridiaceae} OTU with a proportion mean ratio (labeled:control)
 p-value less than 0.10 but outside the top 10 responders was found in the
-\citet{Garcia_Pichel_2013} data (a "light" crust sample). None of
-the strongly responding \textit{Clostridiacea} were found in the sequences
-provided by \citet{Steven_2013}. \textit{Clostridiaceae} $^{15}$N-responder OTU
-centroid 16S sequences are generally more closely related to environmental than
-cultivar 16S gene sequences (Table X, Figure X).   
+\citet{Garcia_Pichel_2013} data (a "light" crust sample) (Figure~\ref{fig:trees}). 
+None of the strongly responding \textit{Clostridiacea} were found in the
+sequences provided by \citet{Steven_2013}. \textit{Clostridiaceae}
+$^{15}$N-responder OTU centroid 16S sequences are generally more closely
+related to environmental than cultivar 16S gene sequences (Table X, Figure X).   
 
 \subsubsection{\textbf{\textit{Proteobacteria}:}} One of the
 \textit{Proteobacteria} OTUs in the 10 most strongly responding OTUs was
@@ -123,7 +122,7 @@ BLAST hit in LTP Release 115, BLAST \%ID 100, Accession ZD3440,
 \textit{Protebacteria} OTUs were found in the \citet{Steven_2013} sequences.
 There were 133 responder OTU-sample occurrences (responder OTU was found in a
 sample library) in the \citet{Steven_2013} data.  83 were in "below crust"
-samples, 50 in BSC samples.
+samples, 50 in BSC samples (see Figure~\ref{fig:trees}).
 
 \subsubsection{\textbf{Other taxa:}} Two $^{15}$N-responsive OTUs were found
 in an extensive number of environmental samples (61 of 65 samples from the
@@ -134,10 +133,7 @@ with best LTP BLAST hits of 81.91 and 81.32\% identity. Additionally, the
 evidence for $^{15}$N incorporation for each OTU was weak relative to other
 putative responders (adjusted p-values of 0.090 and 0.096). Of the remaining
 36 stable isotope responder OTUs, only 14 were observed in the environmental
-data.  Figure~\ref{fig:rspndr_dist} summarizes the OTU-sample occurrences in
-both the \citet{Steven_2013} and the \citet{Garcia_Pichel_2013} data with
-occurrences distributed into the most relevant sample classes of each study.
-
+data (Figure~\ref{fig:trees}, Figure~\ref{fig:rspndr_dist}).
 %\subsubsection{Heterocystous \textit{Cyanobacteria}} At least one OTU defined
 %by \citet{Yeager} sequences (see Table~\ref{table:yeager_2006}) was found in
 %21 of the 23 \citet{Garcia_Pichel_2013} sampling sites. Counts of samples
