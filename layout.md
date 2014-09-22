@@ -11,3 +11,4 @@ figures/rarefacation_curves1/raref_and_boxplot.png
 figures/rspndr_dist/rspndr_dist.png
 figures/LTP_blast_table/LTP_blast_table.png
 figures/clost.tree/clost.tree.png
+figures/trees/trees.png
