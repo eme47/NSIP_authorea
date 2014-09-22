@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  22 SEP 2014 11:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  22 SEP 2014 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,7 +733,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <13> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 ) (./Introduction.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 51.
  [1
 
 
@@ -741,77 +741,80 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.5> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 25.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 25.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 26.
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [2]
-LaTeX Font Info:    Calculating math sizes for size <11.5> on input line 26.
+LaTeX Font Info:    Calculating math sizes for size <11.5> on input line 27.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 26.
+(Font)              size <12> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.5> not available
-(Font)              size <12> substituted on input line 26.
+(Font)              size <12> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 26.
+(Font)              size <12> substituted on input line 27.
 
 
 LaTeX Font Warning: Font shape `U/lasy/b/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 26.
+(Font)              size <12> substituted on input line 27.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8.04996> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 26.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5.75> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 26.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 27.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 26.
+(hyperref)                removing `math shift' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `superscript' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `math shift' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 26.
+(hyperref)                removing `math shift' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 26.
+(hyperref)                removing `subscript' on input line 27.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 27.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [3]
-Underfull \hbox (badness 1596) in paragraph at lines 78--100
+Underfull \hbox (badness 1596) in paragraph at lines 80--102
 \OT1/ptm/m/n/12 phylum-level sequence annotations for all three studies but onl
 y the DNA-SIP data had more
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 102.
-) (./Discussion.tex
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 104.
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[4]
+[4]) (./Discussion.tex
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -822,34 +825,34 @@ File: omlptm.fd
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 88.
-) (./Methods.tex
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[6]
+[6]) (./Methods.tex
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no ∞ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [7]
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 56.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -938,17 +941,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 143.
 
+
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[9]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-
-Overfull \vbox (2.0245pt too high) has occurred while \output is active []
-
-
-[9]) (./full_paper.bbl
+) (./full_paper.bbl
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -973,7 +977,11 @@ Missing character: There is no ∂ in font ptmr7t!
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[13] (./LTP_table.tex
+[13]
+Overfull \vbox (2.0245pt too high) has occurred while \output is active []
+
+
+[14] (./LTP_table.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
@@ -1002,7 +1010,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 
-<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=692, 542.025pt x 2
+<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=682, 542.025pt x 2
 52.945pt>
 File: figures/ordination_heavy/ordination_heavy_day_facet.pdf Graphic file (typ
 e pdf)
@@ -1017,7 +1025,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[14] <figures/trees/trees.pdf, id=702, 433.62pt x 1806.75pt>
+[15] <figures/trees/trees.pdf, id=692, 433.62pt x 1806.75pt>
 File: figures/trees/trees.pdf Graphic file (type pdf)
 
 <use figures/trees/trees.pdf>
@@ -1030,7 +1038,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1042,20 +1050,20 @@ Overfull \vbox (20.71999pt too high) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
 l.26 
       <./figures/trees/trees.pdf>]
-<figures/l2fc/l2fc.pdf, id=2420, 361.35pt x 578.16pt>
+<figures/l2fc/l2fc.pdf, id=2410, 361.35pt x 578.16pt>
 File: figures/l2fc/l2fc.pdf Graphic file (type pdf)
 
 <use figures/l2fc/l2fc.pdf>
 Package pdftex.def Info: figures/l2fc/l2fc.pdf used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 403.20067pt.
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2422, 3447.88126pt x 17
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2412, 3447.88126pt x 17
 01.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1070,13 +1078,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
 l.40 
       <./figures/l2fc/l2fc.pdf>]
-<figures/clost.tree/clost_tree.png, id=2436, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=2426, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1090,7 +1098,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1102,7 +1110,7 @@ Overfull \vbox (32.49052pt too high) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1111,7 +1119,7 @@ l.47
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[20]pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
+[21]pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1123,7 +1131,7 @@ s been already used, duplicate ignored
                    \relax 
 l.6 ...anked by sum of all sequence annotations).}
                                                   
-<figures/study_phylum_dist/study_phylum_dist.png, id=2451, 1100.11pt x 1981.402
+<figures/study_phylum_dist/study_phylum_dist.png, id=2441, 1100.11pt x 1981.402
 5pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1142,7 +1150,7 @@ s been already used, duplicate ignored
                    \relax 
 l.13 ...(p-value: 4.526e$^{-5}$, r$^{2}$: 0.434).}
                                                   
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=2452, 29
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=2442, 29
 75.115pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
@@ -1158,7 +1166,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[21 <./figures/study_phylum_dist/study_phylum_dist.png>]pdfTeX warning (ext4): 
+[22 <./figures/study_phylum_dist/study_phylum_dist.png>]pdfTeX warning (ext4): 
 destination with the same identifier (name{figure.3}) has been already used, du
 plicate ignored
 <to be read again> 
@@ -1171,7 +1179,7 @@ s been already used, duplicate ignored
                    \relax 
 l.20 ...riteria) in \citet{Steven_2013} data set.}
                                                   
-<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2461, 578.16pt x 379
+<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2451, 578.16pt x 379
 .4175pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.pdf Graphic file (type 
 pdf)
@@ -1186,7 +1194,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[22 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]pdfTe
+[23 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]pdfTe
 X warning (ext4): destination with the same identifier (name{figure.4}) has bee
 n already used, duplicate ignored
 <to be read again> 
@@ -1199,7 +1207,7 @@ s been already used, duplicate ignored
                    \relax 
 l.27 ...l \cite{BUNGE_2010} estimated total OTUs)}
                                                   
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=2478, 2863.69875pt x 17
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=2468, 2863.69875pt x 17
 01.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1214,7 +1222,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[23 <./figures/het_cyano_steven2013/het_cyano_steven2013.pdf>]pdfTeX warning (e
+[24 <./figures/het_cyano_steven2013/het_cyano_steven2013.pdf>]pdfTeX warning (e
 xt4): destination with the same identifier (name{figure.5}) has been already us
 ed, duplicate ignored
 <to be read again> 
@@ -1227,7 +1235,7 @@ s been already used, duplicate ignored
                    \relax 
 l.34 ...chen" (2 samples total) dominated crusts.}
                                                   
-<figures/rspndr_dist/rspndr_dist.png, id=2498, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=2488, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1241,18 +1249,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[24 <./figures/rarefacation_curves1/raref_and_boxplot.png>]
+[25 <./figures/rarefacation_curves1/raref_and_boxplot.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[25 <./figures/rspndr_dist/rspndr_dist.png>]
+[26 <./figures/rspndr_dist/rspndr_dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
  (./full_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 13.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13.
 Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: ACB913F00886CCF60DDBB13486A3C04A;2713.
+(rerunfilecheck)             Checksum: DDABF75356CC371B2300A873C2AED66D;2729.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1261,13 +1269,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 13.
  ) 
 Here is how much of TeX's memory you used:
- 9845 strings out of 493485
- 144540 string characters out of 3143526
- 278203 words of memory out of 3000000
+ 9846 strings out of 493485
+ 144547 string characters out of 3143526
+ 279203 words of memory out of 3000000
  12738 multiletter control sequences out of 15000+200000
  57663 words of font info for 131 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,10n,37p,1133b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,10n,37p,1133b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1284,10 +1292,10 @@ urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (25 pages, 1570207 bytes).
+Output written on full_paper.pdf (26 pages, 1569889 bytes).
 PDF statistics:
- 2594 PDF objects out of 2984 (max. 8388607)
- 839 compressed objects within 9 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 2584 PDF objects out of 2984 (max. 8388607)
+ 828 compressed objects within 9 object streams
+ 117 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
