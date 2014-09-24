@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  24 SEP 2014 11:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  24 SEP 2014 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,15 +806,15 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 96.
+(hyperref)                removing `superscript' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 ) (./Discussion.tex
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
@@ -1279,7 +1279,7 @@ Here is how much of TeX's memory you used:
  12707 multiletter control sequences out of 15000+200000
  54345 words of font info for 117 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,8n,37p,1558b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,8n,37p,1558b,505s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1296,7 +1296,7 @@ urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (25 pages, 1639665 bytes).
+Output written on full_paper.pdf (25 pages, 1639395 bytes).
 PDF statistics:
  2829 PDF objects out of 2984 (max. 8388607)
  809 compressed objects within 9 object streams
