@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  24 SEP 2014 11:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  24 SEP 2014 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,23 +800,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 17.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 59.
+
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 97.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 97.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 97.
-
-) (./Discussion.tex
+[3]) (./Discussion.tex
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -1263,9 +1262,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
  (./full_paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 13.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13.
-Package rerunfilecheck Info: File `full_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 9DC67A535BCF54E7883A54EA3EF86CE2;2418.
 
+
+Package rerunfilecheck Warning: File `full_paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `full_paper.out':
+(rerunfilecheck)             Before: 9DC67A535BCF54E7883A54EA3EF86CE2;2418
+(rerunfilecheck)             After:  55186059472B1745F36BD209F5CD4A7A;2418.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1296,7 +1301,7 @@ urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (25 pages, 1639395 bytes).
+Output written on full_paper.pdf (25 pages, 1639532 bytes).
 PDF statistics:
  2829 PDF objects out of 2984 (max. 8388607)
  809 compressed objects within 9 object streams
