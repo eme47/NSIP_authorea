@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -97,11 +97,11 @@ Daniel~H. Buckley.
 \newblock \doi{10.1128/9781555816896.ch7}.
 \newblock URL \url{http://dx.doi.org/10.1128/9781555816896.ch7}.
 
-\bibitem[Buckley et~al.()Buckley, Huangyutitham, Hsu, and Nelson]{17369332}
+\bibitem[Buckley et~al.(2007)Buckley, Huangyutitham, Hsu, and Nelson]{17369332}
 DH~Buckley, V~Huangyutitham, SF~Hsu, and TA~Nelson.
 \newblock {Stable isotope probing with 15N2 reveals novel noncultivated
   diazotrophs in soil.}
-\newblock \emph{Appl Environ Microbiol}, 73:\penalty0 3196--204.
+\newblock \emph{Appl Environ Microbiol}, 73:\penalty0 3196--204, 2007.
 
 \bibitem[Bunge(2010)]{BUNGE_2010}
 John Bunge.
@@ -300,6 +300,14 @@ Jari Oksanen, F.~Guillaume Blanchet, Roeland Kindt, Pierre Legendre, Peter~R.
 \newblock URL \url{http://CRAN.R-project.org/package=vegan}.
 \newblock R package version 2.0-10.
 
+\bibitem[Poolman and Glaasker(1998)]{Poolman_1998}
+Bert Poolman and Erwin Glaasker.
+\newblock {Regulation of compatible solute accumulation in bacteria}.
+\newblock \emph{Molecular Microbiology}, 29\penalty0 (2):\penalty0 397--407,
+  jul 1998.
+\newblock \doi{10.1046/j.1365-2958.1998.00875.x}.
+\newblock URL \url{http://dx.doi.org/10.1046/j.1365-2958.1998.00875.x}.
+
 \bibitem[Price et~al.(2010)Price, Dehal, and Arkin]{20224823}
 MN~Price, PS~Dehal, and AP~Arkin.
 \newblock {FastTree 2--approximately maximum-likelihood trees for large
@@ -312,6 +320,20 @@ E~Pruesse, C~Quast, K~Knittel, BM~Fuchs, W~Ludwig, J~Peplies, and FO~Glöckner.
 \newblock {SILVA: a comprehensive online resource for quality checked and
   aligned ribosomal RNA sequence data compatible with ARB.}
 \newblock 35:\penalty0 7188--96, 2007.
+
+\bibitem[Rajeev et~al.(2013)Rajeev, da~Rocha, Klitgord, Luning, Fortney, Axen,
+  Shih, Bouskill, Bowen, Kerfeld, Garcia-Pichel, Brodie, Northen, and
+  Mukhopadhyay]{Rajeev_2013}
+Lara Rajeev, Ulisses~Nunes da~Rocha, Niels Klitgord, Eric~G Luning, Julian
+  Fortney, Seth~D Axen, Patrick~M Shih, Nicholas~J Bouskill, Benjamin~P Bowen,
+  Cheryl~A Kerfeld, Ferran Garcia-Pichel, Eoin~L Brodie, Trent~R Northen, and
+  Aindrila Mukhopadhyay.
+\newblock {Dynamic cyanobacterial response to hydration and dehydration in a
+  desert biological soil crust}.
+\newblock \emph{The {ISME} Journal}, 7\penalty0 (11):\penalty0 2178--2191, jun
+  2013.
+\newblock \doi{10.1038/ismej.2013.83}.
+\newblock URL \url{http://dx.doi.org/10.1038/ismej.2013.83}.
 
 \bibitem[Schloss et~al.(2009)Schloss, Westcott, Ryabin, Hall, Hartmann,
   Hollister, Lesniewski, Oakley, Parks, Robinson, Sahl, Stres, Thallinger, Van,
@@ -363,6 +385,13 @@ Hadley Wickham and Romain Francois.
 \newblock \emph{{dplyr: dplyr: a grammar of data manipulation}}, 2014.
 \newblock URL \url{http://CRAN.R-project.org/package=dplyr}.
 \newblock R package version 0.2.
+
+\bibitem[Wiegel et~al.(2006)Wiegel, Tanner, and Rainey]{Wiegel_2006}
+Juergen Wiegel, Ralph Tanner, and Fred~A. Rainey.
+\newblock {An Introduction to the Family Clostridiaceae}.
+\newblock In \emph{The Prokaryotes}, pages 654--678. Springer {US}, 2006.
+\newblock \doi{10.1007/0-387-30744-3_20}.
+\newblock URL \url{http://dx.doi.org/10.1007/0-387-30744-3_20}.
 
 \bibitem[Yarza et~al.(2008)Yarza, Richter, Peplies, Euzeby, Amann, Schleifer,
   Ludwig, Gl\"ockner, and Rossell\'o-M\'ora]{Yarza_2008}

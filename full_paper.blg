@@ -3,8 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: full_paper.aux
 The style file: plainnat.bst
 Database file #1: bibliography/biblio.bib.bib
-Warning--empty year in 17369332
-Warning--empty year in 17369332
 Warning--empty journal in 20003500
 Warning--empty journal in 20383131
 Warning--empty journal in 19304878
@@ -23,45 +21,45 @@ Warning--empty journal in 19801464
 Warning--empty journal in 21349862
 Warning--empty journal in 14766579
 Warning--empty journal in 25139123
-You've used 49 entries,
+You've used 52 entries,
             2773 wiz_defined-function locations,
-            956 strings with 16956 characters,
-and the built_in function-call counts, 29510 in all, are:
-= -- 2554
-> -- 2255
-< -- 30
-+ -- 758
-- -- 708
-* -- 2731
-:= -- 4682
-add.period$ -- 214
-call.type$ -- 49
-change.case$ -- 379
-chr.to.int$ -- 48
-cite$ -- 118
-duplicate$ -- 1085
-empty$ -- 1956
-format.name$ -- 775
-if$ -- 6078
+            983 strings with 17918 characters,
+and the built_in function-call counts, 31761 in all, are:
+= -- 2761
+> -- 2435
+< -- 32
++ -- 818
+- -- 765
+* -- 2944
+:= -- 5034
+add.period$ -- 230
+call.type$ -- 52
+change.case$ -- 407
+chr.to.int$ -- 51
+cite$ -- 122
+duplicate$ -- 1160
+empty$ -- 2093
+format.name$ -- 837
+if$ -- 6546
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 46
-newline$ -- 313
-num.names$ -- 202
-pop$ -- 698
+missing$ -- 49
+newline$ -- 334
+num.names$ -- 214
+pop$ -- 742
 preamble$ -- 1
-purify$ -- 332
+purify$ -- 357
 quote$ -- 0
-skip$ -- 891
+skip$ -- 961
 stack$ -- 0
-substring$ -- 960
-swap$ -- 125
-text.length$ -- 10
+substring$ -- 1054
+swap$ -- 139
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 534
-warning$ -- 20
-while$ -- 205
+type$ -- 567
+warning$ -- 18
+while$ -- 221
 width$ -- 0
-write$ -- 750
-(There were 20 warnings)
+write$ -- 803
+(There were 18 warnings)
