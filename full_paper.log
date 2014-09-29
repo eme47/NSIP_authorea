@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  26 SEP 2014 16:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  29 SEP 2014 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -820,6 +820,9 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
@@ -970,60 +973,40 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [11]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-
-Overfull \vbox (2.0245pt too high) has occurred while \output is active []
-
-
-[12]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¶ in font ptmr7t!
-) (./figures.tex
+
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[13]
+[12]) (./figures.tex
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[14] (./LTP_table.tex
+[13] (./LTP_table.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 8.
 
-Overfull \hbox (28.63779pt too wide) in alignment at lines 6--27
- [] [] [] 
+Underfull \hbox (badness 1242) in paragraph at lines 45--45
+[]|\OT1/ptm/m/it/12 Klebsiella, Pantoea, Erwinia, Enterobacter,
  []
 
 
-Underfull \vbox (badness 10000) detected at line 27
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\OT1/ptm/m/it/12 Ottowia, Diaphorobacter, Ideonella,
  []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 36--36
-\OT1/ptm/m/it/10 Enterobacter soli, E. ludwigii, E. kobei, E. hormaechei, E. cl
-oacae subsp. dissolvens,
- []
-
-
-Overfull \hbox (28.63779pt too wide) in alignment at lines 27--46
- [] [] [] 
- []
-
-)
-Overfull \vbox (236.49332pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[15]
+[14])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 
-<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=668, 542.025pt x 2
+<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=659, 542.025pt x 2
 52.945pt>
 File: figures/ordination_heavy/ordination_heavy_day_facet.pdf Graphic file (typ
 e pdf)
@@ -1032,7 +1015,7 @@ Package pdftex.def Info: figures/ordination_heavy/ordination_heavy_day_facet.pd
 f used on input line 9.
 (pdftex.def)             Requested size: 428.40308pt x 199.92856pt.
 
-<figures/trees/trees.pdf, id=673, 451.64925pt x 1464.0729pt>
+<figures/trees/trees.pdf, id=664, 451.64925pt x 1464.0729pt>
 File: figures/trees/trees.pdf Graphic file (type pdf)
 
 <use figures/trees/trees.pdf>
@@ -1045,7 +1028,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1057,20 +1040,20 @@ Overfull \vbox (20.71999pt too high) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
 l.26 
       <./figures/trees/trees.pdf>]
-<figures/l2fc/l2fc.pdf, id=2661, 361.35pt x 578.16pt>
+<figures/l2fc/l2fc.pdf, id=2652, 361.35pt x 578.16pt>
 File: figures/l2fc/l2fc.pdf Graphic file (type pdf)
 
 <use figures/l2fc/l2fc.pdf>
 Package pdftex.def Info: figures/l2fc/l2fc.pdf used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 403.20067pt.
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2663, 3447.88126pt x 17
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2654, 3447.88126pt x 17
 01.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1085,13 +1068,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
 l.40 
       <./figures/l2fc/l2fc.pdf>]
-<figures/clost.tree/clost_tree.png, id=2677, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=2668, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1105,7 +1088,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1117,7 +1100,7 @@ Overfull \vbox (32.49052pt too high) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
@@ -1126,7 +1109,7 @@ l.47
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[21]pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
+[20]pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1138,7 +1121,7 @@ s been already used, duplicate ignored
                    \relax 
 l.6 ...anked by sum of all sequence annotations).}
                                                   
-<figures/study_phylum_dist/study_phylum_dist.png, id=2692, 1100.11pt x 1981.402
+<figures/study_phylum_dist/study_phylum_dist.png, id=2683, 1100.11pt x 1981.402
 5pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1157,7 +1140,7 @@ s been already used, duplicate ignored
                    \relax 
 l.13 ...(p-value: 4.526e$^{-5}$, r$^{2}$: 0.434).}
                                                   
-<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=2693, 29
+<figures/ordination_all_day_facet/ordination_day_facet_w_inset.png, id=2684, 29
 75.115pt x 1212.53pt>
 File: figures/ordination_all_day_facet/ordination_day_facet_w_inset.png Graphic
  file (type png)
@@ -1173,7 +1156,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[22 <./figures/study_phylum_dist/study_phylum_dist.png>]pdfTeX warning (ext4): 
+[21 <./figures/study_phylum_dist/study_phylum_dist.png>]pdfTeX warning (ext4): 
 destination with the same identifier (name{figure.3}) has been already used, du
 plicate ignored
 <to be read again> 
@@ -1186,7 +1169,7 @@ s been already used, duplicate ignored
                    \relax 
 l.20 ...riteria) in \citet{Steven_2013} data set.}
                                                   
-<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2702, 578.16pt x 379
+<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2693, 578.16pt x 379
 .4175pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.pdf Graphic file (type 
 pdf)
@@ -1201,7 +1184,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[23 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]pdfTe
+[22 <./figures/ordination_all_day_facet/ordination_day_facet_w_inset.png>]pdfTe
 X warning (ext4): destination with the same identifier (name{figure.4}) has bee
 n already used, duplicate ignored
 <to be read again> 
@@ -1214,7 +1197,7 @@ s been already used, duplicate ignored
                    \relax 
 l.27 ...l \cite{BUNGE_2010} estimated total OTUs)}
                                                   
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=2719, 2863.69875pt x 17
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=2710, 2863.69875pt x 17
 01.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1229,7 +1212,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[24 <./figures/het_cyano_steven2013/het_cyano_steven2013.pdf>]pdfTeX warning (e
+[23 <./figures/het_cyano_steven2013/het_cyano_steven2013.pdf>]pdfTeX warning (e
 xt4): destination with the same identifier (name{figure.5}) has been already us
 ed, duplicate ignored
 <to be read again> 
@@ -1242,7 +1225,7 @@ s been already used, duplicate ignored
                    \relax 
 l.34 ...chen" (2 samples total) dominated crusts.}
                                                   
-<figures/rspndr_dist/rspndr_dist.png, id=2739, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=2730, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1256,11 +1239,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[25 <./figures/rarefacation_curves1/raref_and_boxplot.png>]
+[24 <./figures/rarefacation_curves1/raref_and_boxplot.png>]
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
-[26 <./figures/rspndr_dist/rspndr_dist.png>]
+[25 <./figures/rspndr_dist/rspndr_dist.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
  (./full_paper.aux)
@@ -1276,13 +1259,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 13.
  ) 
 Here is how much of TeX's memory you used:
- 9816 strings out of 493485
- 144062 string characters out of 3143526
- 284520 words of memory out of 3000000
- 12713 multiletter control sequences out of 15000+200000
- 54852 words of font info for 118 fonts, out of 3000000 for 9000
+ 9807 strings out of 493485
+ 143969 string characters out of 3143526
+ 281535 words of memory out of 3000000
+ 12708 multiletter control sequences out of 15000+200000
+ 49957 words of font info for 112 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
- 51i,9n,37p,1558b,505s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,8n,37p,959b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
@@ -1300,10 +1283,10 @@ vetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (26 pages, 1649022 bytes).
+Output written on full_paper.pdf (25 pages, 1648442 bytes).
 PDF statistics:
- 2837 PDF objects out of 2984 (max. 8388607)
- 815 compressed objects within 9 object streams
- 112 named destinations out of 1000 (max. 500000)
+ 2828 PDF objects out of 2984 (max. 8388607)
+ 807 compressed objects within 9 object streams
+ 111 named destinations out of 1000 (max. 500000)
  259 words of extra memory for PDF output out of 10000 (max. 10000000)
 
