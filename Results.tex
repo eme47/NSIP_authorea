@@ -5,14 +5,14 @@ different}
 BSC were incubated for 4 days in the presence or absence of $^{15}$N$_{2}$ and
 DNA was extracted for DNA-SIP at 2 and 4 days. Fractionation of CsCl gradients
 permitted separation of DNA on the basis of buoyant density. Ordination of
-Bray-Curtis \citep{Bray_1957} distances between SSU-rRNA amplicon sequence
-collections from gradient fractions reveals that labeled gradient fraction
-(i.e. gradient fractions of DNA from $^{15}$N$_{2}$ incubations) sequence
-collections diverge from control (i.e. DNA from incubations without
-$^{15}$N$_{2}$) at the ``heavy`` of the CsCl gradients
-(Figure~\ref{fig:ord_heavy} and Figure~\ref{fig:ordination}). Differences among
-label/control groups with heavy fractions are statistically significant by the
-Adonis test (p-value: 0.001, r$^{2}$: 0.18) \citep{Anderson_2001}. 
+Bray-Curtis \citep{Bray_1957} distances between gradient fractions (based on OTU
+abundance within each fraction) reveals that labeled gradient fractions (i.e.
+gradient fractions from gradients with $^{15}$N$_{2}$ labeled DNA) diverge from
+control (i.e. DNA from incubations without $^{15}$N$_{2}$) at the ``heavy`` of
+the CsCl gradients (Figure~\ref{fig:ord_heavy} and
+Figure~\ref{fig:ordination}).  Differences among label/control groups with
+heavy fractions are statistically significant by the Adonis test (p-value:
+0.001, r$^{2}$: 0.18) \citep{Anderson_2001}. 
 \subsection{OTUs responsive to $^{15}$N$_{2}$ are primarily \textit{Proteobacteria}
 and \textit{Clostridiaceae}}
 A statistically significant increase in OTU abundance in heavy fractions of
@@ -23,12 +23,13 @@ control samples from heavy gradient fractions using statistics developed to
 find differentially expressed genes with RNASeq data \citep{24699258,
 Love_2014}. OTUs that incorporated $^{15}$N into DNA and increased in bouyant
 density were identified by rejecting the the null hypothesis that the labeled
-versus control proportion mean ratio for an OTU was below a chosen
+versus control proportion mean ratio for an OTU (considering only
+heavy fractions) was below a chosen
 threshold (see methods). p-values were adjusted by the BH method
 \citep{citeulike:1042553} and we used a false discovery rate (FDR) cutoff of
 0.10 (typical FDR threshold in gene expression data analysis). A total of 2,127
 and 2,160 OTUs were detected in days 2 and 4, respectively, and interrogated
-for evidence of $^{15}$N$_{2}$-labelling. Of these OTU, only 208
+for evidence of $^{15}$N$_{2}$-labelling. Of these OTUs, only 208
 and 233, respectively, passed a sparsity threshold we applied as an independent
 filtering step to pre-screen out OTUs not likely to produce significant
 p-values (see \citet{Love_2014} for discussion of independent filtering). Of OTUs
