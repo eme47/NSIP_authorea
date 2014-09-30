@@ -8,10 +8,10 @@ sealed chambers under controlled atmosphere and in the light for 4 days. Crusts
 were sampled and transported while dry and wetted at initiation of the
 experiment. Treatments included an unlabeled control air headspace and
 $^{15}$N$_{2}$ enriched air ($>$98\% atom $^{15}$N$_{2}$) headspace. Samples
-were taken at 2 days and 4 days incubation. Acetylene Reduction rates were
+were taken at 2 days and 4 days incubation. Acetylene reduction rates were
 measured daily. Acetylene reduction rates increased over the course of the
-experiment (0.8, 4.8, 8.8, and 14.5 $\mu$m m-2 hr-1 ethylene for days 1 through
-4, respectively). 
+experiment (0.8, 4.8, 8.8, and 14.5 $\mu$m m$^{-2}$ hr$^{-1}$ ethylene for days
+1 through 4, respectively). 
 
 \subsection{DNA extraction}
 DNA from each sample was extracted using a MoBio PowerSoil DNA Isolation Kit
@@ -23,23 +23,23 @@ PicoGreen nucleic acid quantification dyes (Molecular Probes).
 
 \subsection{DNA-SIP} CsCl density gradients were formed in 4.7 mL polyallomer
 centrifuge tubes filled with gradient buffer (15mM Tris-HCl, pH 8; 15mM EDTA;
-15mM KCl) which contained 1.725 g ml-1 CsCl. CsCl density was checked with a
+15mM KCl) which contained 1.725 g/mL CsCl. CsCl density was checked with a
 digital refractometer as described below. A total of 2.5-5 ug of DNA was added
 to each tube, and the tubes mixed, prior to centrifugation. Centrifugation was
 performed in a TLA-110 fixed angle rotor (Beckman Coulter) at 20C for 67 hours
 at 55,000 rpm. \citep{17369332}. Centrifuged gradients were fractionated from
 bottom to top in 36 equal fractions of 100 $\mu$L, using a by syringe pump as
-described Manefield et al. (2002). The density of each fraction was determined
+described previously CITE. The density of each fraction was determined
 using using an AR200 refractometer modified to accomidate 5ul samples as 
 described previously \citep{17369332}. DNA in each fraction was desalted on a
 filter plate (PALL, AcroPrep Advance 96 Filter Plate, Product Number 8035),
 using four washes with 300$\mu$L TE per fraction. After each wash, the filter
-plate was centrifuges at 500 g for 10 minutes, with a final spin of 20 minutes.
+plate was centrifuged at 500 g for 10 minutes, with a final spin of 20 minutes.
 Fractions were resuspended in 50 uL of TE buffer.
 
  \subsection{PCR, library normalization and DNA sequencing} 
  Barcoded PCR of bacterial and archaeal 16S
- rRNA genes, in preparation for 454 Pyrosequencing, was carried out using
+ rRNA genes, in preparation for 454 pyrosequencing, was carried out using
  primer set 515F/806R \citep{21349862} (primers purchased from Integrated DNA
  Technologies).  The primer 806R contained an 8 bp
  barcode sequence, a "TC" linker, and a Roche 454 B sequencing adaptor, while
@@ -101,28 +101,26 @@ controlled reads could be mapped to centroids. Unmapped reads do not count
 towards sample counts and are removed from downstream analyses. The
 USearch software version for cluster generation was 7.0.1090.
 \citet{Garcia_Pichel_2013} and \citet{Steven_2013}) sequences were quality
-screened by determining if they covered the expected region of the 16S rRNA
-gene (described above) and included as input to USearch for OTU centroid
-selection and subsequent mapping to OTU centroids. 
+screened by alignment coordinates(described above) and included as input to
+USearch for OTU centroid selection and subsequent mapping to OTU centroids. 
 
 \subsubsection{Phylogenetic tree}
-The alignment for the "\textit{Clostridiaceae}" phylogeny was created using
+The alignment for the \textit{Clostridiaceae} phylogeny was created using
 SSU-Align which is based on Infernal \citep{24008419, 19307242}. Columns in the
 alignment that were not included in the SSU-Align covariance models or were
 aligned with poor confidence (less than 95\% of characters in a position had
 posterior probability alignment scores of at least 95\%) were masked for
 phylogenetic reconstruction. Additionally, the alignment was trimmed to
 coordinates such that all sequences in the alignment began and ended at the
-same positions. The "\textit{Clostridiaceae}" tree included all top BLAST hits
+same positions. The \textit{Clostridiaceae} tree included all top BLAST hits
 (parameters below) for $^{15}$N \textit{Clostridiaceae} responders in the
 Living Tree Project database \citep{Yarza_2008} in addition to BLAST hits
-within a sequence identity
-threshold of 97\% to $^{15}$N responders from the Silva SSURef\_NR SSU rRNA
-database \citep{17947321}. Only one SSURef\_NR115 hit per study per OTU
-("study" was determined by "title" field) was selected for the tree. FastTree
-\citep{20224823} was used to build the tree and support values are
-SH-like scores reported by FastTree. Short sequences were mapped to the
-reference backbone using pplacer \citep{Matsen_2010} (default parameters).
+within a sequence identity threshold of 97\% to $^{15}$N responders from the
+Silva SSURef\_NR SSU rRNA database \citep{17947321}. Only one SSURef\_NR115 hit
+per study per OTU (the study was determined by "title" field) was selected for
+the tree. FastTree \citep{20224823} was used to build the tree and support
+values are SH-like scores reported by FastTree. Short sequences were mapped to
+the reference backbone using pplacer \citep{Matsen_2010} (default parameters).
 pplacer finds the edge placements that maximize phylogenetic likelihood. Prior
 to being mapped to the reference tree, short sequences were aligned to the
 reference alignment using Infernal \citep{19307242} against the same SSU-Align
@@ -130,21 +128,22 @@ covariance model used to align reference sequences.
 
 \subsubsection{Identifying OTUs that incorporated $^{15}$N into their DNA}
 DNA-SIP is a culture-independent approach towards defining identity-function
-connections in microbial communities \citep{Buckley_2011, 17446886, Radajewski_2001}. Microbes
-participating in a specific process are identified on the basis of isotope
-assimilation into DNA. Isotopically labeled nucleic acids can be
-separated from unlabeled by buoyant density in a CsCl gradient. As the
-buoyant density of a macromolecule is dependent on many factors in addition
-to stable isotope incorporation (e.g. GC-content in nucleic acids
-\citep{25139123}), labeled nucleic acids from one microbial population may
-have the same buoyant density of unlabeled nucleic acids from another.
-Therefore it is imperative to compare density gradients with nucleic acids
-from heavy stable isotope incubations to gradients from ``control''
-incubations where everything mimics the experimental conditions except that
-unlabeled substrates are used. By contrasting heavy density gradient
-fractions in experimental density gradients (hereafter referred to as "labeled"
-gradients) against heavy fractions in control gradients, the identities of
-microbes with labeled nucleic acids can be determined 
+connections in microbial communities \citep{Buckley_2011, 17446886,
+Radajewski_2001}.
+Microbes participating in a specific process are identified on the basis of
+isotope assimilation into DNA. Isotopically labeled nucleic acids can be
+separated from unlabeled by buoyant density in a CsCl gradient. As the buoyant
+density of a macromolecule is dependent on many factors in addition to stable
+isotope incorporation (e.g. GC-content in nucleic acids \citep{25139123}),
+labeled nucleic acids from one microbial population may have the same buoyant
+density of unlabeled nucleic acids from another.  Therefore it is imperative to
+compare density gradients with nucleic acids from heavy stable isotope
+incubations to gradients from ``control'' incubations where everything mimics
+the experimental conditions except that unlabeled substrates are used. By
+contrasting heavy density gradient fractions in experimental density gradients
+(hereafter referred to as "labeled" gradients) against heavy fractions in
+control gradients, the identities of microbes with labeled nucleic acids can be
+determined 
 
 We used an RNA-Seq differential expression statistical framework
 \citep{Love_2014} to find OTUs enriched in heavy fractions of labeled
