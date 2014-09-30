@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 SEP 2014 16:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 SEP 2014 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,7 +953,7 @@ f used on input line 9.
 File: figures/trees/trees.pdf Graphic file (type pdf)
 
 <use figures/trees/trees.pdf>
-Package pdftex.def Info: figures/trees/trees.pdf used on input line 25.
+Package pdftex.def Info: figures/trees/trees.pdf used on input line 26.
 (pdftex.def)             Requested size: 185.83208pt x 602.29807pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -966,9 +966,9 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
-l.28 
+l.29 
       <./figures/ordination_heavy/ordination_heavy_day_facet.pdf>]
-Overfull \vbox (29.22995pt too high) has occurred while \output is active []
+Overfull \vbox (30.71999pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
@@ -978,13 +978,13 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
-l.28 
+l.29 
       <./figures/trees/trees.pdf>]
 <figures/l2fc/l2fc.pdf, id=2629, 361.35pt x 578.16pt>
 File: figures/l2fc/l2fc.pdf Graphic file (type pdf)
 
 <use figures/l2fc/l2fc.pdf>
-Package pdftex.def Info: figures/l2fc/l2fc.pdf used on input line 40.
+Package pdftex.def Info: figures/l2fc/l2fc.pdf used on input line 41.
 (pdftex.def)             Requested size: 252.0pt x 403.20067pt.
 
 <figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2631, 3447.88126pt x 17
@@ -993,7 +993,7 @@ File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
  <use figures/scatter_heavy_topN2/scatter_heavy_topN.png>
 Package pdftex.def Info: figures/scatter_heavy_topN2/scatter_heavy_topN.png use
-d on input line 53.
+d on input line 54.
 (pdftex.def)             Requested size: 504.0pt x 248.67632pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1006,14 +1006,14 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
-l.56 
+l.57 
       <./figures/l2fc/l2fc.pdf>]
 <figures/clost.tree/clost_tree.png, id=2646, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
 Package pdftex.def Info: figures/clost.tree/clost_tree.png used on input line 6
-0.
+1.
 (pdftex.def)             Requested size: 504.0pt x 613.24663pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1026,7 +1026,7 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
-l.63 
+l.64 
       <./figures/scatter_heavy_topN2/scatter_heavy_topN.png>]
 Overfull \vbox (32.49052pt too high) has occurred while \output is active []
 
@@ -1038,7 +1038,7 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
  has been already used, duplicate ignored
 <recently read> \AtBeginShipoutBox 
                                    
-l.63 
+l.64 
       <./figures/clost.tree/clost_tree.png (PNG copy)>]) (./supp_figures.tex
 Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
@@ -1190,15 +1190,12 @@ Package rerunfilecheck Info: File `full_paper.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 13.
  ) 
 Here is how much of TeX's memory you used:
  9786 strings out of 493485
  143622 string characters out of 3143526
- 282567 words of memory out of 3000000
+ 282741 words of memory out of 3000000
  12693 multiletter control sequences out of 15000+200000
  50464 words of font info for 113 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
@@ -1221,7 +1218,7 @@ hvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (25 pages, 1602557 bytes).
+Output written on full_paper.pdf (25 pages, 1602546 bytes).
 PDF statistics:
  2806 PDF objects out of 2984 (max. 8388607)
  785 compressed objects within 8 object streams
