@@ -7,122 +7,132 @@ DNA was extracted for DNA-SIP at 2 and 4 days. Fractionation of CsCl gradients
 permitted separation of DNA on the basis of buoyant density. Ordination of
 Bray-Curtis \citep{Bray_1957} distances between gradient fractions (based on OTU
 abundance within each fraction) reveals that labeled gradient fractions (i.e.
-gradient fractions from gradients with $^{15}$N$_{2}$ labeled DNA) diverge from
-control (i.e. DNA from incubations without $^{15}$N$_{2}$) at the ``heavy`` end
-of the CsCl gradients (Figure~\ref{fig:ord_heavy} and
+gradient fractions from CsCl gradients with $^{15}$N$_{2}$ labeled DNA) diverge
+from control (i.e. DNA from incubations without $^{15}$N$_{2}$) at the
+heavy end of the CsCl gradients (Figure~\ref{fig:ord_heavy} and
 Figure~\ref{fig:ordination}). Bray-Curtis distances between heavy gradient
 fractions are consistent label/control groups (p-value: 0.001, r$^{2}$: 0.18, 
 Adonis test \citep{Anderson_2001}). 
+
 \subsection{OTUs responsive to $^{15}$N$_{2}$ are primarily \textit{Proteobacteria}
 and \textit{Clostridiaceae}}
 A statistically significant increase in OTU abundance in heavy fractions of
 $^{15}$N$_{2}$ labeled samples relative to corresponding control fractions
 provides evidence for OTUs that have incorporated $^{15}$N into their DNA.
-Specifically, we compared OTU proportion means between labeled and
-control samples from heavy gradient fractions using statistics developed to
-find differentially expressed genes with RNASeq data \citep{24699258,
-Love_2014}. OTUs that incorporated $^{15}$N into DNA and increased in bouyant
-density were identified by rejecting the the null hypothesis that the labeled
-versus control proportion mean ratio for an OTU (considering only
-heavy fractions) was below a chosen
-threshold (see methods). p-values were adjusted by the BH method
+Specifically, we compared OTU proportion means between labeled and control
+samples from heavy gradient fractions using statistics developed to find
+differentially expressed genes with RNASeq data \citep{24699258, Love_2014}.
+OTUs that incorporated $^{15}$N into DNA and increased in bouyant density were
+identified by rejecting the the null hypothesis that the labeled versus control
+proportion mean ratio for an OTU (considering only heavy fractions) was below a
+chosen threshold (see methods). p-values were adjusted by the BH method
 \citep{citeulike:1042553} and we used a false discovery rate (FDR) cutoff of
 0.10 (typical FDR threshold in gene expression data analysis). A total of 2,127
 and 2,160 OTUs were detected in days 2 and 4, respectively, and interrogated
-for evidence of $^{15}$N$_{2}$-labelling. Of these OTUs, only 208
-and 233, respectively, passed a sparsity threshold we applied as an independent
+for evidence of $^{15}$N$_{2}$-labelling. Of these OTUs, only 208 and 233,
+respectively, passed a sparsity threshold we applied as an independent
 filtering step to pre-screen out OTUs not likely to produce significant
-p-values (see \citet{Love_2014} for discussion of independent filtering). Of OTUs
-passing sparsity criteria 38 were found to be enriched significantly in
-``heavy'' fractions relative to control. These OTUs likely incorporated
-$^{15}$N into DNA ($^{15}$N$_{2}$ ``responders''). Of these 38, 26 are
-annotated as \textit{Firmicutes}, 9 as \textit{Proteobacteria}, 2 as
-\textit{Acidobacteria} and 1 as \textit{Actinobacteria} (Figure~\ref{fig:l2fc},
+p-values (see \citet{Love_2014} for discussion of independent filtering). Of
+OTUs passing sparsity criteria 38 were found to be enriched significantly in
+heavy fractions relative to control. These OTUs likely incorporated $^{15}$N
+into DNA ($^{15}$N$_{2}$ ``responders''). Of these 38, 26 are annotated as
+\textit{Firmicutes}, 9 as \textit{Proteobacteria}, 2 as \textit{Acidobacteria}
+and 1 as \textit{Actinobacteria} (Figure~\ref{fig:l2fc},
 Figure~\ref{fig:trees}). If the responder OTUs are ranked by descending,
 moderated proportion mean labeled:control ratios, the top 10 ratios (i.e. the
 10 OTUs that were most enriched in the labeled gradients considering only heavy
 fractions) are either \textit{Firmicutes} (6 OTUs) or \textit{Proteobacteria}
-(4 OTUs) (Figure~\ref{fig:scatter_heavy}). Centroid sequences of
-strongly responding \textit{Proteobacteria} OTUs all share high sequence identity
-($>$98.48\%, Table~\ref{tab:LTP_blast}) with cultivars from genera
+(4 OTUs) (Figure~\ref{fig:scatter_heavy}). Centroid or seed sequences for
+strongly responding \textit{Proteobacteria} OTUs all share high sequence
+identity ($>$98.48\%, Table~\ref{tab:LTP_blast}) with cultivars from genera
 known to possess diazotrophs including \textit{Klebsiella}, \textit{Shigella},
 \textit{Acinetobacter}, and \textit{Ideonella}. None of the \textit{Firmicutes}
-OTUs in the top 10 responders share greater than 97\% sequence identity with
-sequences in the LTP database (release 115) (see Table~\ref{tab:LTP_blast}).
-OTUs that passed the sparsity threshold but were not classified as
-$^{15}$N-responsive were subsequently tested against the null hypothesis that
-the OTU proportion mean ratio was above the selected threshold. Rejecting the
-second null would indicate an OTU did \textit{not} incorporate $^{15}$N into
-biomass. There were 58 and 70 ``non-responders'' at days 2 and 4,
+OTU centroids in the top 10 responders share greater than 97\% sequence
+identity with sequences in the LTP database (release 115) (see
+Table~\ref{tab:LTP_blast}).  OTUs that passed the sparsity threshold but were
+not classified as $^{15}$N-responsive were subsequently tested with the null
+hypothesis that the OTU proportion mean ratio was above the selected threshold.
+Rejecting the second null would indicate an OTU did \textit{not} incorporate
+$^{15}$N into biomass. There were 58 and 70 ``non-responders'' at days 2 and 4,
 respectively. OTUs that did not pass sparsity or could not be classified as
 either a responder or non-responder are simply ambiguous with respect to
 $^{15}$N labelling.
+
 \subsection{$^{15}$N-responsive OTUs in  environmental samples}
 Five of the 6 \textit{Firmicutes} with the strongest response to
-$^{15}$N-labelling (Table~X) belong in the \textit{Clostridiacea}. We only
-observed one of these strongly responding \textit{Clostridiaceae} in the data
-presented by \citet{Garcia_Pichel_2013}, "OTU.108" (closest BLAST hit in LTP
-Release 115 -- \textit{Caloramotor proteoclasticus}, BLAST \%ID 96.94,
-Accession X90488).  OTU.108 was found in two samples both characterized as
-"light" crust. One other \textit{Clostridiaceae} OTU with a proportion mean
-ratio (labeled:control) p-value less than 0.10 but outside the top 10
-responders was found in the \citet{Garcia_Pichel_2013} data (a "light" crust
-sample) (Figure~\ref{fig:trees}).  None of the strongly responding
-\textit{Clostridiacea} were found in the sequences provided by
-\citet{Steven_2013}. \textit{Clostridiaceae} $^{15}$N-responder OTU are not
-closely related to cultivars.  (Table~\ref{tab:LTP_blast},
-Figure~\ref{fig:clost_tree}).   One of the proteobacterial OTUs with the
-strongest $^{15}$-N response (Table~X) was found in \citet{Garcia_Pichel_2013}
+$^{15}$N-labelling (Table~\ref{tab:LTP_blast}) belong in the
+\textit{Clostridiacea}. We only observed one of these strongly responding
+\textit{Clostridiaceae} in the data presented by \citet{Garcia_Pichel_2013},
+"OTU.108" (closest BLAST hit in LTP Release 115 -- \textit{Caloramotor
+proteoclasticus}, BLAST \%ID 96.94, Accession X90488).  OTU.108 was found in
+two samples both characterized as "light" (i.e. early successional) crust. One
+other \textit{Clostridiaceae} OTU with a proportion mean ratio
+(labeled:control) p-value less than 0.10 but outside the top 10 responders was
+found in the \citet{Garcia_Pichel_2013} data (a "light" crust sample)
+(Figure~\ref{fig:trees}). None of the strongly responding
+\textit{Clostridiacea} were found in the sequences in
+\citet{Steven_2013} (Figure~\ref{fig:trees}). \textit{Clostridiaceae}
+$^{15}$N-responder OTUs are not closely related to cultivars.
+(Table~\ref{tab:LTP_blast}, Figure~\ref{fig:clost_tree}). One of the
+proteobacterial OTUs with the strongest $^{15}$N response
+(Table~\ref{tab:LTP_blast}) was found in \citet{Garcia_Pichel_2013} samples
 (closest BLAST hit in LTP Release 115, BLAST \%ID 100, Accession ZD3440,
-\textit{Acinetobacter johnsonii}). None of the \textit{strongly responding}
-\textit{Protebacteria} OTUs were found in the \citet{Steven_2013} sequences.
-Responder OTUs were found in \citet{Steven_2013} samples 133 times. 83 were in
-"below crust" samples, 50 in crust samples (see Figure~\ref{fig:trees}).  Two
-$^{15}$N-responsive OTUs were found in an extensive number of environmental
-samples (61 of 65 samples from the combined data sets of
-\citet{Garcia_Pichel_2013} and \citet{Steven_2013}).  Both OTUs were annotated
-as \textit{Acidobacteria} but shared little sequence identity to any cultivar
-SSU rRNA gene sequences in the LTP (Release 115), with best LTP BLAST hits of
-81.91 and 81.32\% identity. Additionally, the $^{15}$N-response for each OTU
-was weak relative to other putative responders (\ref{fig:l2fc}. Of the
-remaining 36 stable isotope responder OTUs, only 14 were observed in the
-environmental data (Figure~\ref{fig:trees}, Figure~\ref{fig:rspndr_dist}).
-\subsection{Comparing sequence collections at "study"-level}
-We compared the sequences determined in this study to two previous surveys of
-SSU rRNA amplicons from BSC communities: the \citet{Garcia_Pichel_2013}
-and \citet{Steven_2013} study. There were 3,079 OTUs (209,354 total sequences
-after quality control) in the DNA-SIP data, 3,203 OTUs (129,033 total sequences
-after quality control) in the \citet{Garcia_Pichel_2013} study, and 2,481 OTUs
+\textit{Acinetobacter johnsonii}). None of the strongly responding
+\textit{Protebacteria} OTUs were found in the \citet{Steven_2013} samples.
+A responder OTU was found in a \citet{Steven_2013} sample 133 times. 
+Eighty-three times in sub-biocrust samples, 50 times in crust samples (see
+Figure~\ref{fig:trees}). Two $^{15}$N-responsive OTUs were found in an
+extensive number of environmental samples (61 of 65 samples from the combined
+data sets of \citet{Garcia_Pichel_2013} and \citet{Steven_2013}).  Both OTUs
+were annotated as \textit{Acidobacteria} but shared little sequence identity to
+any cultivar SSU rRNA gene sequences in the LTP (Release 115), with best LTP
+BLAST hits of 81.91 and 81.32\% identity (Table~\ref{tab:LTP_blast}).
+Additionally, the magnitude of the $^{15}$N-response for each OTU was weak
+relative to other putative responders (\ref{fig:l2fc}. Of the remaining 36
+stable isotope responder OTUs, only 14 were observed in the environmental data
+(Figure~\ref{fig:trees}, Figure~\ref{fig:rspndr_dist}).
+
+\subsection{Comparing sequence collections at "study"-level} We compared the
+sequences this DNA-SIP experiment to two previous surveys of SSU rRNA
+amplicons from BSC communities: the \citet{Garcia_Pichel_2013} and
+\citet{Steven_2013} study. There were 3,079 OTUs (209,354 total sequences after
+quality control) in the DNA-SIP data, 3,203 OTUs (129,033 total sequences after
+quality control) in the \citet{Garcia_Pichel_2013} study, and 2,481 OTUs
 (129,358 total sequences after quality control) in the \citet{Steven_2013}
-study. Of the 4,340 OTU centroids established for this study (including
-sequences from \citet{Steven_2013} and \citet{Garcia_Pichel_2013}) 445 have
-matches in the Living Tree Project (LTP) (a collection of 16S gene sequences
-for all sequenced type strains \citep{Yarza_2008}) at greater or equal than
-97\% sequence identity (LTP version 115). That is, 445 of 4,340 OTUs (\~10\%)
-are closely related to cultivars. The DNA-SIP data set shares 56\% OTUs with
-the \citet{Steven_2013} data and 46\% of OTUs with the
-\citet{Garcia_Pichel_2013} data (where total OTUs are from the combined data
-for each pairwise comparison).  The \citet{Steven_2013} and
-\citet{Garcia_Pichel_2013} studies share 46\% of OTUs. \textit{Cyanobacteria}
-and \textit{Proteobacteria} were the top two phylum-level sequence annotations
-for all three studies of BSC. Only the DNA-SIP data had more
-\textit{Proteobacteria} annotations than \textit{Cyanobacteria}.
-\textit{Proteobacteria} represented the 29.8\% of sequence annotations in
-DNA-SIP data as opposed to 17.8\% and 19.2\% for the \citet{Garcia_Pichel_2013}
-and \citet{Steven_2013} data, respectively.  There is a stark contrast in the
-total percentage of sequences annotated as \textit{Firmicutes} between the raw
-environmental samples and the DNA-SIP data.  \textit{Firmicutes} represent only
-0.21\% and 0.23\% of total phylum level sequence annotations in the
-\citet{Steven_2013} and \citet{Garcia_Pichel_2013} studies, respectively
-(Figure~\ref{fig:study_phy_dist}). In the DNA-SIP sequence collection
-\textit{Firmicutes} make up 19\% of phylum level sequence annotations. Also in
-sharp contrast for the DNA-SIP versus environmental data is the number of
-putative heterocystous \textit{Cyanobacteria} sequences. Only 0.29\% of
+study. There were a total of 4,340 OTUs in all three datasets. Of the total
+4,340 OTU centroids established for this study, 445 have matches in the Living
+Tree Project (LTP) (a collection of 16S gene sequences for all sequenced type
+strains \citep{Yarza_2008}) at greater or equal than 97\% sequence identity
+(LTP version 115). That is, 445 of 4,340 OTUs are closely related to cultivars.
+The DNA-SIP data set shares 56\% OTUs with the \citet{Steven_2013} data and
+46\% of OTUs with the \citet{Garcia_Pichel_2013} data (where total OTUs are
+from the combined data for each pairwise comparison).  The \citet{Steven_2013}
+and \citet{Garcia_Pichel_2013} studies share 46\% of OTUs.
+\textit{Cyanobacteria} and \textit{Proteobacteria} were the top two
+phylum-level sequence annotations for all three studies of BSC. Only the
+DNA-SIP data had more \textit{Proteobacteria} annotations than
+\textit{Cyanobacteria}.  \textit{Proteobacteria} represented the 29.8\% of
+sequence annotations in DNA-SIP data as opposed to 17.8\% and 19.2\% for the
+\citet{Garcia_Pichel_2013} and \citet{Steven_2013} data, respectively.  There
+is a contrast in the total percentage of sequences annotated as
+\textit{Firmicutes} between the raw environmental samples and the DNA-SIP data.
+\textit{Firmicutes} represent only 0.21\% and 0.23\% of total phylum level
+sequence annotations in the \citet{Steven_2013} and \citet{Garcia_Pichel_2013}
+studies, respectively (Figure~\ref{fig:study_phy_dist}). In the DNA-SIP
+sequence collection \textit{Firmicutes} make up 19\% of phylum level sequence
+annotations. SIP places focus upon organisms based on isotope incorporation and
+has the ability to detect activity by low abundance members of the community.
+DNA from OTUs that incopororate $^{15}$N into their biomass moves towards the
+heavy end of the CsCl gradient and therefore OTUs in ``labeled'' DNA are
+enriched in the full data pool relative to bulk DNA.  Phylum-level taxonomic
+annotations of $^{15}$N-responsive OTUs (i.e. \textit{Firmicutes} and
+\textit{Proteobacteria}) are enriched in the DNA-SIP data relative to
+environmental data (Figure~\ref{fig:study_phy_dist}). Also in contrast
+for the DNA-SIP versus environmental data is the number of putative
+heterocystous \textit{Cyanobacteria} sequences. Only 0.29\% of
 \textit{Cyanobacteria} sequences in the DNA-SIP data are annotated as belonging
 to "Subsection IV" which is the heterocystous order of \textit{Cyanobacteria}
 in the Silva taxonomic nomenclature \citep{17947321}. In the
 \citet{Steven_2013} and \citet{Garcia_Pichel_2013} studies 15\% and 23\%,
 respectively, of \textit{Cyanobacteria} sequences are annotated as belonging to
-"Subsection
-IV".  
-
+"Subsection IV".
