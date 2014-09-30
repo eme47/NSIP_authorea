@@ -5,7 +5,7 @@
 
 \begin{figure}[H]
   \centering
-  \caption{Ordination of heavy gradient fraction sequence collections by Bray-Curtis distances.}
+  \caption{Ordination of heavy gradient fractions by Bray-Curtis distances on the basis of OTU content.}
   \includegraphics[width=0.85\textwidth]{figures/ordination_heavy/ordination_heavy_day_facet.pdf}
   \label{fig:ord_heavy}
 \end{figure}
@@ -26,14 +26,28 @@
 
 \begin{figure}[H]
   \centering
-  \caption{Moderated log$_{2}$ of proportion mean ratios for labeled versus control gradients (heavy fractions only, densities >1.725 g/mL). All OTUs found in at least 62.5\% of heavy fractions at a specific incubation day are shown. Red color denotes a proportion mean ratio that has a corresponding adjusted p-value below a false discovery rate of 10\% (the null model is that the proportion mean is ratio is below 0.25). The horizontal line is the proportion mean threshold for the null model, 0.25. The inset figure summarizes the taxonomy of OTUs that with proportion mean ratio p-vaules under 0.10 for at least one time point.}
-    \includegraphics[width=0.5\textwidth]{figures/l2fc/l2fc.pdf}
+  \caption{Moderated log$_{2}$ of proportion mean ratios for labeled versus
+  control gradients (heavy fractions only, densities $>$1.725 g/mL). All OTUs
+  passing the sparsity treshold (see methods) at a specific incubation day are
+  shown. Red color denotes a proportion mean ratio that has a corresponding
+  adjusted p-value below a false discovery rate of 10\% (the null model is that
+  the proportion mean is ratio is below 0.25). The horizontal line is the
+  proportion mean threshold for the null model, 0.25. The inset figure
+  summarizes the taxonomy of OTUs that with proportion mean ratio p-vaules
+  under 0.10 for at least one time point.}
+  \includegraphics[width=0.5\textwidth]{figures/l2fc/l2fc.pdf}
   \label{fig:l2fc}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-    \caption{Relative abundance values in heavy fractions (density greater or equal to 1.725 g/mL) for the top 10 $^{15}$N "responders" (putative diazotrophs, see results for selection criteria of top 10) at each incubation day. See Table \ref{tab:LTP_blast} for BLAST results of top 10 responders against the LTP database (release 115). Point area is proportional to CsCl gradient fraction density, and color signifies control (red) or labeled (blue) treatment.}
+    \caption{Relative abundance values in heavy fractions (density greater or
+    equal to 1.725 g/mL) for the top 10 $^{15}$N "responders" (putative
+    diazotrophs, see results for selection criteria of top 10) at each
+    incubation day. See Table~\ref{tab:LTP_blast} for BLAST results against 
+    the LTP database (release 115). Point area is proportional to CsCl gradient
+    fraction density, and color signifies control (red) or labeled (blue)
+    treatment.}
     \includegraphics[width=1.0\textwidth]{figures/scatter_heavy_topN2/scatter_heavy_topN.png}
   \label{fig:scatter_heavy}
 \end{figure}
