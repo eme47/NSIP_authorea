@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 SEP 2014 16:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.7.14)  30 SEP 2014 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,15 +855,15 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 132.
+(hyperref)                removing `math shift' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 132.
+(hyperref)                removing `superscript' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 132.
+(hyperref)                removing `math shift' on input line 130.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -876,7 +876,7 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 
 
 [9]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 199.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 198.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -940,7 +940,7 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 
-<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=636, 542.025pt x 2
+<figures/ordination_heavy/ordination_heavy_day_facet.pdf, id=634, 542.025pt x 2
 52.945pt>
 File: figures/ordination_heavy/ordination_heavy_day_facet.pdf Graphic file (typ
 e pdf)
@@ -949,7 +949,7 @@ Package pdftex.def Info: figures/ordination_heavy/ordination_heavy_day_facet.pd
 f used on input line 9.
 (pdftex.def)             Requested size: 428.40308pt x 199.92856pt.
 
-<figures/trees/trees.pdf, id=641, 451.64925pt x 1463.85335pt>
+<figures/trees/trees.pdf, id=639, 451.64925pt x 1463.85335pt>
 File: figures/trees/trees.pdf Graphic file (type pdf)
 
 <use figures/trees/trees.pdf>
@@ -980,14 +980,14 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
                                    
 l.29 
       <./figures/trees/trees.pdf>]
-<figures/l2fc/l2fc.pdf, id=2629, 361.35pt x 578.16pt>
+<figures/l2fc/l2fc.pdf, id=2627, 361.35pt x 578.16pt>
 File: figures/l2fc/l2fc.pdf Graphic file (type pdf)
 
 <use figures/l2fc/l2fc.pdf>
 Package pdftex.def Info: figures/l2fc/l2fc.pdf used on input line 41.
 (pdftex.def)             Requested size: 252.0pt x 403.20067pt.
 
-<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2631, 3447.88126pt x 17
+<figures/scatter_heavy_topN2/scatter_heavy_topN.png, id=2629, 3447.88126pt x 17
 01.35625pt>
 File: figures/scatter_heavy_topN2/scatter_heavy_topN.png Graphic file (type png
 )
@@ -1008,7 +1008,7 @@ Overfull \vbox (2.0245pt too high) has occurred while \output is active []
                                    
 l.57 
       <./figures/l2fc/l2fc.pdf>]
-<figures/clost.tree/clost_tree.png, id=2646, 791.95876pt x 963.6pt>
+<figures/clost.tree/clost_tree.png, id=2644, 791.95876pt x 963.6pt>
 File: figures/clost.tree/clost_tree.png Graphic file (type png)
 
 <use figures/clost.tree/clost_tree.png>
@@ -1055,7 +1055,7 @@ s been already used, duplicate ignored
                    \relax 
 l.6 ... (p-value: 4.526e$^{-5}$, r$^{2}$: 0.434).}
                                                   
-<figures/ordination_all_day_facet/ordination_all_day_facet.png, id=2661, 2110.8
+<figures/ordination_all_day_facet/ordination_all_day_facet.png, id=2659, 2110.8
 8625pt x 947.54pt>
 File: figures/ordination_all_day_facet/ordination_all_day_facet.png Graphic fil
 e (type png)
@@ -1076,7 +1076,7 @@ s been already used, duplicate ignored
                    \relax 
 l.13 ...nked by sum of all sequence annotations).}
                                                   
-<figures/study_phylum_dist/study_phylum_dist.png, id=2662, 1100.11pt x 1981.402
+<figures/study_phylum_dist/study_phylum_dist.png, id=2660, 1100.11pt x 1981.402
 5pt>
 File: figures/study_phylum_dist/study_phylum_dist.png Graphic file (type png)
  <use figures/study_phylum_dist/study_phylum_dist.png>
@@ -1103,7 +1103,7 @@ s been already used, duplicate ignored
                    \relax 
 l.20 ...riteria) in \citet{Steven_2013} data set.}
                                                   
-<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2673, 578.16pt x 379
+<figures/het_cyano_steven2013/het_cyano_steven2013.pdf, id=2671, 578.16pt x 379
 .4175pt>
 File: figures/het_cyano_steven2013/het_cyano_steven2013.pdf Graphic file (type 
 pdf)
@@ -1131,7 +1131,7 @@ s been already used, duplicate ignored
                    \relax 
 l.27 ...l \cite{BUNGE_2010} estimated total OTUs)}
                                                   
-<figures/rarefacation_curves1/raref_and_boxplot.png, id=2688, 2863.69875pt x 17
+<figures/rarefacation_curves1/raref_and_boxplot.png, id=2686, 2863.69875pt x 17
 01.35625pt>
 File: figures/rarefacation_curves1/raref_and_boxplot.png Graphic file (type png
 )
@@ -1159,7 +1159,7 @@ s been already used, duplicate ignored
                    \relax 
 l.34 ...chen" (2 samples total) dominated crusts.}
                                                   
-<figures/rspndr_dist/rspndr_dist.png, id=2708, 2546.51375pt x 1400.23125pt>
+<figures/rspndr_dist/rspndr_dist.png, id=2706, 2546.51375pt x 1400.23125pt>
 File: figures/rspndr_dist/rspndr_dist.png Graphic file (type png)
 
 <use figures/rspndr_dist/rspndr_dist.png>
@@ -1195,7 +1195,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 13.
 Here is how much of TeX's memory you used:
  9786 strings out of 493485
  143622 string characters out of 3143526
- 282741 words of memory out of 3000000
+ 281741 words of memory out of 3000000
  12693 multiletter control sequences out of 15000+200000
  50464 words of font info for 113 fonts, out of 3000000 for 9000
  961 hyphenation exceptions out of 8191
@@ -1218,10 +1218,10 @@ hvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on full_paper.pdf (25 pages, 1602546 bytes).
+Output written on full_paper.pdf (25 pages, 1602561 bytes).
 PDF statistics:
- 2806 PDF objects out of 2984 (max. 8388607)
- 785 compressed objects within 8 object streams
+ 2804 PDF objects out of 2984 (max. 8388607)
+ 783 compressed objects within 8 object streams
  108 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
